@@ -1,0 +1,15 @@
+{
+	"category" : "Vidi",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 5/23/2014 14:48",
+	"instvars" : [
+		"rules",
+		"target" ],
+	"name" : "VidiRuleRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

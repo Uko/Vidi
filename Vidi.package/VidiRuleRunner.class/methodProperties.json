@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"withAllRules" : "YuriyTymchuk 5/23/2014 14:10",
+		"withAllRulesOnPackagesNamed:" : "YuriyTymchuk 5/23/2014 14:18" },
+	"instance" : {
+		"ccBuilder" : "YuriyTymchuk 5/27/2014 14:23",
+		"check" : "YuriyTymchuk 5/23/2014 13:27",
+		"rules" : "YuriyTymchuk 5/23/2014 11:15",
+		"rules:" : "YuriyTymchuk 5/23/2014 11:15",
+		"rulesByViolator" : "YuriyTymchuk 5/23/2014 13:33",
+		"target" : "YuriyTymchuk 5/23/2014 11:15",
+		"target:" : "YuriyTymchuk 5/23/2014 14:19",
+		"violatorsByRule" : "YuriyTymchuk 5/23/2014 13:32" } }
