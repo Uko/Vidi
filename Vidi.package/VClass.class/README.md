@@ -1,0 +1,1 @@
+I am the metamodel of a class

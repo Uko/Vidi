@@ -1,0 +1,18 @@
+{
+	"category" : "Vidi-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/12/2014 10:30",
+	"instvars" : [
+		"name",
+		"methods",
+		"exMethods",
+		"package",
+		"class" ],
+	"name" : "VClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
