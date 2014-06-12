@@ -1,0 +1,1 @@
+A common superclass for Vidi metamodels of entities

@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "YuriyTymchuk 6/12/2014 15:51",
 	"instvars" : [
-		"classes",
-		"exClasses",
-		"rpackage" ],
-	"name" : "VPackage",
+		"environment",
+		"name" ],
+	"name" : "VEntity",
 	"pools" : [
 		 ],
-	"super" : "VEntity",
+	"super" : "Object",
 	"type" : "normal" }

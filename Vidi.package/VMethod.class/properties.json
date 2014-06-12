@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"classes",
-		"exClasses",
-		"rpackage" ],
-	"name" : "VPackage",
+		"method" ],
+	"name" : "VMethod",
 	"pools" : [
 		 ],
 	"super" : "VEntity",

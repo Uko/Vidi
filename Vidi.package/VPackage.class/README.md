@@ -1,1 +1,0 @@
-I am the metamodel of a package. I contain my defined classes named `classes` and the classes I extend named `exClasses`, as well as a link to related RPackage

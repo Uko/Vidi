@@ -1,5 +1,10 @@
 {
 	"class" : {
-		 },
+		"newFrom:inEnvironment:" : "YuriyTymchuk 6/12/2014 15:29" },
 	"instance" : {
-		 } }
+		"classes:" : "YuriyTymchuk 6/12/2014 15:25",
+		"descendents" : "YuriyTymchuk 6/12/2014 16:26",
+		"exClasses:" : "YuriyTymchuk 6/12/2014 15:25",
+		"isNotForeign" : "YuriyTymchuk 6/12/2014 16:45",
+		"mirroredEntity" : "YuriyTymchuk 6/12/2014 16:02",
+		"package:" : "YuriyTymchuk 6/12/2014 15:14" } }

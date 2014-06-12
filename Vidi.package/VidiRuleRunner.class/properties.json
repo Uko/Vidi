@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 5/23/2014 14:48",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"rules",
-		"target" ],
+		"target",
+		"packagesModel" ],
 	"name" : "VidiRuleRunner",
 	"pools" : [
 		 ],
