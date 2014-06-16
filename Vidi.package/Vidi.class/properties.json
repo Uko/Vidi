@@ -1,0 +1,15 @@
+{
+	"category" : "Vidi",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/16/2014 15:00",
+	"instvars" : [
+		"ruleCategories",
+		"morph" ],
+	"name" : "Vidi",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
