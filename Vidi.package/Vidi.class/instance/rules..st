@@ -1,4 +1,8 @@
 as yet unclassified
 rules: compositeRule
-	ruleCategories items: compositeRule rules.
+	rules := compositeRule rules.
+	ruleCategories items: rules.
 	ruleCategories updateList.
+
+	"ruleCategories roots: compositeRule rules.
+	ruleCategories updateTree."

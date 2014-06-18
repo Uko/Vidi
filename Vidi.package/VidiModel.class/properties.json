@@ -1,0 +1,17 @@
+{
+	"category" : "Vidi-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packages",
+		"rules",
+		"methods",
+		"classes" ],
+	"name" : "VidiModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
