@@ -8,27 +8,13 @@ initializeWidgets
 		autoDeselect: false;
 		items: self rules.
 		
-	roassal := self instantiate: RoassalModel.
-	roassal script: [ :view :canvas |
-		view addAll: ((RTEllipse new color: [ :el |
-			(self rulesByViolator at: el mirroredEntity ifAbsentPut: #()) size > 0
-				ifTrue:  [ Color red ]
-				ifFalse: [ Color gray ] ]) elementsOn: self packModel entities) @ RTDraggable .
-		RTEdge 
-			buildEdgesFromElements: view elements
-			from: #yourself
-			toAll: #descendents
-			inView: view.
-		"RTGridLayout on: view elements."
-		RTClusterLayout  on: view elements edges: view edges.
-		view @ RTZoomableView.
-		view edges do: [ :e | e trachelShape pushBack ].
-		view canvas camera focusOnCenterScaled: view canvas extent max ].
+	roassal := self instantiate: CCModel.
+	
 	
 	vizButton := self newButton. 
 	vizButton
 		label: 'Vizualise';
-		action: [ roassal refresh ]
+		action: [ roassal builder: (CCBuilder for: packModel violating: self rulesByViolator) ]
 
     
    
