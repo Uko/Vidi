@@ -5,7 +5,6 @@ initializeWidgets
 	ruleCategories
 		beMultipleSelection;
 		displayBlock: [ :rule | rule name ];
-		autoDeselect: false;
 		items: self rules.
 		
 	roassal := self instantiate: CCModel.

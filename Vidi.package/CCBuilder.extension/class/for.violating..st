@@ -30,6 +30,6 @@ for: aModel violating: rulesByViolator
 	builder packingLayout innerGap: 40 asCCPoint.
 	
 	builder announcer on: CCNodeSelected do: [ :ann |
-		ann node model browse ].
+		ann node model mirroredEntity browse ].
 	
 	^ builder 
