@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 rules
 	^ rules ifNil: [ rules := #() ]

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWidgets
 
 	ruleList := self newList.
@@ -10,11 +10,10 @@ initializeWidgets
 	ccViz := self instantiate: CCModel.
 	ccViz autoResetCamera: false.
 	
-	
 	vizButton := self newButton. 
 	vizButton
 		label: 'Vizualise';
-		action: [ ccViz builder: (CCBuilder for: packModel violating: self rulesByViolator) ]
+		action: [ self setNewBuilder ]
 
     
    

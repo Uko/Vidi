@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 rules: compositeRule
 	rules := compositeRule rules.
 	ruleList items: rules.
