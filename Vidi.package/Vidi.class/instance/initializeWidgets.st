@@ -8,6 +8,7 @@ initializeWidgets
 		items: self rules.
 		
 	ccViz := self instantiate: CCModel.
+	ccViz autoResetCamera: false.
 	
 	
 	vizButton := self newButton. 

@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"spec" : "YuriyTymchuk 6/20/2014 12:56" },
+		"spec" : "YuriyTymchuk 6/20/2014 18:57" },
 	"instance" : {
 		"ccViz" : "YuriyTymchuk 6/20/2014 12:55",
-		"initializeWidgets" : "YuriyTymchuk 6/20/2014 12:54",
-		"packModel" : "YuriyTymchuk 6/18/2014 15:24",
-		"packModel:" : "YuriyTymchuk 6/20/2014 12:54",
+		"initializeCCZiz" : "YuriyTymchuk 6/20/2014 18:53",
+		"initializeWidgets" : "YuriyTymchuk 6/20/2014 18:53",
+		"packModel" : "YuriyTymchuk 6/20/2014 18:50",
+		"packModel:" : "YuriyTymchuk 6/20/2014 18:54",
 		"ruleList" : "YuriyTymchuk 6/20/2014 12:55",
 		"rules" : "YuriyTymchuk 6/18/2014 15:34",
 		"rules:" : "YuriyTymchuk 6/20/2014 12:56",

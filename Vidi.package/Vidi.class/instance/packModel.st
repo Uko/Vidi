@@ -1,3 +1,4 @@
 accessing
 packModel
-	^ packModel ifNil: [ packModel := VidiModel new ]
+	^ packModel ifNil: [ packModel := VidiModel new ].
+	

@@ -1,13 +1,16 @@
 *vidi
 for: aModel violating: rulesByViolator
 
-	| builder normalizer |
-	normalizer := CCColorNormalizer new
-		low: Color gray;
-		high: Color red;
-		population: (aModel entities);
-		transformation: [ :entity |
-			(rulesByViolator at: entity mirroredEntity ifAbsent: #()) size ].
+	| builder normalizer maxViolations |
+	
+	maxViolations := (rulesByViolator detectMax: #size).	
+	normalizer := [ :entity |
+		maxViolations
+			ifNil: Color gray
+			ifNotNilDo: [ :rules |
+				Color red
+					mixed: (rulesByViolator at: entity mirroredEntity ifAbsent: #()) size / maxViolations size
+					with: Color gray ] ].
 	
 	builder := CCBuilder new.
 	builder shape platform color: Color white darker.
