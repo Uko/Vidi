@@ -1,4 +1,4 @@
 accessing
 selectedRule
 
-	^ RBCompositeLintRule rules: ruleCategories selectedItems
+	^ RBCompositeLintRule rules: ruleList selectedItems

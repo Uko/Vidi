@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 6/16/2014 15:00",
 	"instvars" : [
-		"ruleCategories",
+		"ruleList",
 		"vizButton",
-		"morph",
+		"ccViz",
 		"packModel",
-		"roassal",
 		"rules" ],
 	"name" : "Vidi",
 	"pools" : [

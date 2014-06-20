@@ -5,7 +5,7 @@ spec
 		newRow: [ :row |
 			row newColumn: [ :column |
 				column
-					add: #ruleCategories;
+					add: #ruleList;
    		         add: #vizButton height: 30 ];
-				add: #roassal ];
+				add: #ccViz ];
     	yourself

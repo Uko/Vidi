@@ -1,1 +1,1 @@
-A common superclass for Vidi metamodels of entities
+I am a common superclass for Vidi metamodels of entities

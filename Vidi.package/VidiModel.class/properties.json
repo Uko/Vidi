@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 6/20/2014 13:02",
 	"instvars" : [
 		"packages",
-		"rules",
 		"methods",
 		"classes" ],
 	"name" : "VidiModel",

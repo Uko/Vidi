@@ -1,19 +1,19 @@
 as yet unclassified
 initializeWidgets
 
-	ruleCategories := self newList.
-	ruleCategories
+	ruleList := self newList.
+	ruleList
 		beMultipleSelection;
 		displayBlock: [ :rule | rule name ];
 		items: self rules.
 		
-	roassal := self instantiate: CCModel.
+	ccViz := self instantiate: CCModel.
 	
 	
 	vizButton := self newButton. 
 	vizButton
 		label: 'Vizualise';
-		action: [ roassal builder: (CCBuilder for: packModel violating: self rulesByViolator) ]
+		action: [ ccViz builder: (CCBuilder for: packModel violating: self rulesByViolator) ]
 
     
    
