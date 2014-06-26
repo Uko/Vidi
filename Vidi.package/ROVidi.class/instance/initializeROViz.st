@@ -1,0 +1,4 @@
+initialization
+initializeROViz
+
+	self setNewScript.

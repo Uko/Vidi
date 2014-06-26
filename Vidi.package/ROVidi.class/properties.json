@@ -1,0 +1,20 @@
+{
+	"category" : "Vidi",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/26/2014 16:31",
+	"instvars" : [
+		"ruleList",
+		"vizButton",
+		"roViz",
+		"rules",
+		"packagesModel",
+		"rulesByViolator",
+		"maxViolations" ],
+	"name" : "ROVidi",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

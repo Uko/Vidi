@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"spec" : "YuriyTymchuk 6/26/2014 16:34" },
+	"instance" : {
+		"cityForR3" : "YuriyTymchuk 6/26/2014 16:24",
+		"initialize" : "YuriyTymchuk 6/26/2014 13:40",
+		"initializeROViz" : "YuriyTymchuk 6/26/2014 16:48",
+		"initializeWidgets" : "YuriyTymchuk 6/26/2014 16:43",
+		"maxViolations" : "YuriyTymchuk 6/26/2014 16:12",
+		"packagesModel" : "YuriyTymchuk 6/26/2014 13:52",
+		"packagesModel:" : "YuriyTymchuk 6/26/2014 16:48",
+		"roViz" : "YuriyTymchuk 6/26/2014 13:40",
+		"ruleList" : "YuriyTymchuk 6/26/2014 13:40",
+		"rules" : "YuriyTymchuk 6/26/2014 13:40",
+		"rules:" : "YuriyTymchuk 6/26/2014 13:40",
+		"rulesByViolator" : "YuriyTymchuk 6/26/2014 16:15",
+		"selectedRule" : "YuriyTymchuk 6/26/2014 13:40",
+		"setNewScript" : "YuriyTymchuk 6/26/2014 16:59" } }
