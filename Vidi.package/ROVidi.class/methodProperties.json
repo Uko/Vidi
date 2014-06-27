@@ -1,18 +1,26 @@
 {
 	"class" : {
-		"spec" : "YuriyTymchuk 6/26/2014 16:34" },
+		"spec" : "YuriyTymchuk 6/27/2014 16:34" },
 	"instance" : {
+		"browseButton" : "YuriyTymchuk 6/27/2014 16:29",
 		"cityForR3" : "YuriyTymchuk 6/26/2014 16:24",
+		"codePane" : "YuriyTymchuk 6/27/2014 16:07",
+		"critList" : "YuriyTymchuk 6/27/2014 11:39",
+		"infoBar" : "YuriyTymchuk 6/27/2014 09:45",
+		"initialExtent" : "YuriyTymchuk 6/27/2014 15:45",
 		"initialize" : "YuriyTymchuk 6/26/2014 13:40",
 		"initializeROViz" : "YuriyTymchuk 6/26/2014 16:48",
-		"initializeWidgets" : "YuriyTymchuk 6/26/2014 16:43",
+		"initializeWidgets" : "YuriyTymchuk 6/27/2014 16:29",
+		"itemTitle" : "YuriyTymchuk 6/27/2014 15:50",
 		"maxViolations" : "YuriyTymchuk 6/26/2014 16:12",
+		"maxViolations:" : "YuriyTymchuk 6/27/2014 09:45",
 		"packagesModel" : "YuriyTymchuk 6/26/2014 13:52",
 		"packagesModel:" : "YuriyTymchuk 6/26/2014 16:48",
+		"resetInfobar" : "YuriyTymchuk 6/27/2014 09:59",
 		"roViz" : "YuriyTymchuk 6/26/2014 13:40",
 		"ruleList" : "YuriyTymchuk 6/26/2014 13:40",
 		"rules" : "YuriyTymchuk 6/26/2014 13:40",
 		"rules:" : "YuriyTymchuk 6/26/2014 13:40",
 		"rulesByViolator" : "YuriyTymchuk 6/26/2014 16:15",
 		"selectedRule" : "YuriyTymchuk 6/26/2014 13:40",
-		"setNewScript" : "YuriyTymchuk 6/26/2014 16:59" } }
+		"setNewScript" : "YuriyTymchuk 6/27/2014 16:41" } }

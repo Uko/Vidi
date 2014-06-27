@@ -1,0 +1,5 @@
+initialization
+resetInfobar
+
+	infoBar text: '• • • • • •'    
+   
