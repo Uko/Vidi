@@ -8,7 +8,9 @@ initializeWidgets
 		whenSelectionChanged: [ 
 			rulesByViolator := nil.
 			maxViolations := nil ];
-		displayBlock: [ :rule | rule name ];
+		displayBlock: [ :rule |
+			rule name, ' (',
+			(rule leaves flatCollect: #critics) size asString, ')' ];
 		items: self rules.
 		
 	roViz := self instantiate: Roassal3DModel.
