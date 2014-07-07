@@ -5,23 +5,23 @@ setNewScript
 	view := R3View new.
 
 	view removeAll.
-	view add: (R3PointLight position: (R3Vector3 newX: -600 y: 800 z: 1000) color: Color white).
+	view addCameraLight: Color white.
+	"view add: (R3DirectionalLight direction: (R3Vector3 newX: 0.0 y: 0.0 z: 2.0) color: Color white)."
+	"view add: (R3PointLight position: (R3Vector3 newX: -600 y: 800 z: 1000) color: Color white)."
 	
 	view addInteraction: R3MKControl.
 	
 	(CityLayoutXZ2 new on: self cityForR3 brickMode: true) do: [ :building |
-		"building addInteraction: R3BrowseOnClick."
 		building model class ~= VPackage ifTrue: [ 
 			building
 				on: R3MouseClickDown
 				do: [
-					itemTitle text: building model mirroredEntity name.
-					browseButton action: [ building model mirroredEntity browse ].
-					critList items:
-						(self rulesByViolator
+					EntityCritics new
+						entity: building model mirroredEntity;
+						critics: (self rulesByViolator
 							at: building model mirroredEntity
-							ifAbsent: #()).
-					codePane text: building model mirroredEntity sourceCode ] ].
+							ifAbsent: #());
+						openDialogWithSpec ] ].
 		
 		building
 			on: R3MouseEnter

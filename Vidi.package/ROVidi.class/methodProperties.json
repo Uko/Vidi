@@ -1,17 +1,13 @@
 {
 	"class" : {
-		"spec" : "YuriyTymchuk 6/27/2014 16:34" },
+		"spec" : "YuriyTymchuk 7/7/2014 15:54" },
 	"instance" : {
-		"browseButton" : "YuriyTymchuk 6/27/2014 16:29",
-		"cityForR3" : "YuriyTymchuk 6/26/2014 16:24",
-		"codePane" : "YuriyTymchuk 6/27/2014 16:07",
-		"critList" : "YuriyTymchuk 6/27/2014 11:39",
+		"cityForR3" : "YuriyTymchuk 7/7/2014 17:32",
 		"infoBar" : "YuriyTymchuk 6/27/2014 09:45",
 		"initialExtent" : "YuriyTymchuk 6/27/2014 15:45",
 		"initialize" : "YuriyTymchuk 6/26/2014 13:40",
 		"initializeROViz" : "YuriyTymchuk 6/26/2014 16:48",
-		"initializeWidgets" : "YuriyTymchuk 6/27/2014 16:29",
-		"itemTitle" : "YuriyTymchuk 6/27/2014 15:50",
+		"initializeWidgets" : "YuriyTymchuk 7/7/2014 15:36",
 		"maxViolations" : "YuriyTymchuk 6/26/2014 16:12",
 		"maxViolations:" : "YuriyTymchuk 6/27/2014 09:45",
 		"packagesModel" : "YuriyTymchuk 6/26/2014 13:52",
@@ -23,4 +19,4 @@
 		"rules:" : "YuriyTymchuk 6/26/2014 13:40",
 		"rulesByViolator" : "YuriyTymchuk 6/26/2014 16:15",
 		"selectedRule" : "YuriyTymchuk 6/26/2014 13:40",
-		"setNewScript" : "YuriyTymchuk 7/7/2014 02:07" } }
+		"setNewScript" : "YuriyTymchuk 7/7/2014 17:40" } }

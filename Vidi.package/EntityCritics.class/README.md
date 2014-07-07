@@ -1,0 +1,1 @@
+I am a spec model which shows information about the entity (method, class) and violated rules

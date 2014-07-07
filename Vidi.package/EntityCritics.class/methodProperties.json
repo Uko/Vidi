@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"spec" : "YuriyTymchuk 7/7/2014 10:51" },
+	"instance" : {
+		"browseButton" : "YuriyTymchuk 7/7/2014 10:48",
+		"codePane" : "YuriyTymchuk 7/7/2014 10:48",
+		"critList" : "YuriyTymchuk 7/7/2014 10:48",
+		"critics" : "YuriyTymchuk 7/7/2014 10:57",
+		"critics:" : "YuriyTymchuk 7/7/2014 18:42",
+		"entity" : "YuriyTymchuk 7/7/2014 10:48",
+		"entity:" : "YuriyTymchuk 7/7/2014 15:17",
+		"initializeActionToPerformOnTextModel" : "YuriyTymchuk 7/7/2014 18:44",
+		"initializeWidgets" : "YuriyTymchuk 7/7/2014 18:45",
+		"itemTitle" : "YuriyTymchuk 7/7/2014 10:48",
+		"resetCritList" : "YuriyTymchuk 7/7/2014 15:15",
+		"resetTextModel" : "YuriyTymchuk 7/7/2014 19:03",
+		"setTextModelForRule:" : "YuriyTymchuk 7/7/2014 18:59" } }

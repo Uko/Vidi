@@ -1,5 +1,5 @@
 {
-	"category" : "Vidi",
+	"category" : "Vidi-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,16 +7,12 @@
 	"commentStamp" : "YuriyTymchuk 6/26/2014 16:31",
 	"instvars" : [
 		"ruleList",
-		"critList",
 		"infoBar",
 		"roViz",
-		"itemTitle",
 		"rules",
 		"packagesModel",
 		"rulesByViolator",
-		"maxViolations",
-		"codePane",
-		"browseButton" ],
+		"maxViolations" ],
 	"name" : "ROVidi",
 	"pools" : [
 		 ],

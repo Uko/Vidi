@@ -4,15 +4,15 @@ cityForR3
 	
 		color := [ :element |
 		self maxViolations
-			ifNil: Color gray
+			ifNil: Color lightGray
 			ifNotNilDo: [ :violations |
-				Color red
+				Color red lighter lighter 
 					mixed: (self rulesByViolator
 						at: element model mirroredEntity
 						ifAbsent: #()) size
 						/
 						violations size
-					with: Color gray ] ] .
+					with: Color lightGray ] ] .
 	
 	^ self packagesModel packages collect: [ :package |
 		(District on: package)

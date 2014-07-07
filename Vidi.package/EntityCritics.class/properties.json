@@ -1,0 +1,19 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/7/2014 10:42",
+	"instvars" : [
+		"critList",
+		"itemTitle",
+		"codePane",
+		"browseButton",
+		"entity",
+		"critics" ],
+	"name" : "EntityCritics",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
