@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"spec" : "YuriyTymchuk 7/8/2014 14:52" },
+	"instance" : {
+		"cityForR3" : "YuriyTymchuk 7/8/2014 15:01",
+		"colorBlock" : "YuriyTymchuk 7/8/2014 16:19",
+		"colorBlock:" : "YuriyTymchuk 7/8/2014 14:45",
+		"environment:" : "YuriyTymchuk 7/8/2014 14:47",
+		"handleMouseDownOnElement:" : "YuriyTymchuk 7/8/2014 17:47",
+		"handleMouseDownOnView:" : "YuriyTymchuk 7/8/2014 17:47",
+		"infoBar" : "YuriyTymchuk 7/8/2014 14:45",
+		"infoTextBlock" : "YuriyTymchuk 7/8/2014 16:22",
+		"infoTextBlock:" : "YuriyTymchuk 7/8/2014 16:19",
+		"initialize" : "YuriyTymchuk 7/8/2014 17:50",
+		"initializeWidgets" : "YuriyTymchuk 7/8/2014 14:51",
+		"mouseDownOnElement:" : "YuriyTymchuk 7/8/2014 17:41",
+		"mouseDownOnView:" : "YuriyTymchuk 7/8/2014 17:41",
+		"packagesModel" : "YuriyTymchuk 7/8/2014 14:45",
+		"packagesModel:" : "YuriyTymchuk 7/8/2014 16:11",
+		"resetInfobar" : "YuriyTymchuk 7/8/2014 14:51",
+		"resetVisualization" : "YuriyTymchuk 7/8/2014 17:52",
+		"roViz" : "YuriyTymchuk 7/8/2014 14:45" } }

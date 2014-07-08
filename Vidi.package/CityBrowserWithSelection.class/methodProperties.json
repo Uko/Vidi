@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handleMouseDownOnElement:" : "YuriyTymchuk 7/8/2014 18:13",
+		"handleMouseDownOnView:" : "YuriyTymchuk 7/8/2014 17:53",
+		"initialize" : "YuriyTymchuk 7/8/2014 17:50",
+		"resetSelection" : "YuriyTymchuk 7/8/2014 17:50",
+		"select:" : "YuriyTymchuk 7/8/2014 18:14",
+		"selectionChanged" : "YuriyTymchuk 7/8/2014 17:50",
+		"selectionChanged:" : "YuriyTymchuk 7/8/2014 17:50",
+		"silentResetSelection" : "YuriyTymchuk 7/8/2014 17:50",
+		"toggleSelection:" : "YuriyTymchuk 7/8/2014 17:59" } }

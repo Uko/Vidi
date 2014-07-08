@@ -1,6 +1,8 @@
-private
-setNewScript
+accessing
+resetVisualization
 	| view |
+
+	self resetSelection.
 
 	view := R3View new.
 
@@ -12,29 +14,17 @@ setNewScript
 	view addInteraction: R3MKControl.
 	
 	(CityLayoutXZ2 new on: self cityForR3 brickMode: true) do: [ :building |
-		building model class ~= VPackage ifTrue: [ 
+		(building model class ~= VPackage and: [ 
+		 building model isForeign not ]) ifTrue: [ 
 			building
 				on: R3MouseClickDown
-				do: [
-					EntityCritics new
-						entity: building model mirroredEntity;
-						critics: (self rulesByViolator
-							at: building model mirroredEntity
-							ifAbsent: #());
-						openDialogWithSpec ] ].
+				do: [ self handleMouseDownOnElement: building ] ].
 		
 		building
 			on: R3MouseEnter
 			do: [ :event | 
-				infoBar text: building model name.
-				self rulesByViolator
-					at: building model mirroredEntity
-					ifPresent: [ :crit |
-						infoBar text:
-							infoBar text,
-							' | ',
-							crit size printString,
-							(' violation' asPluralBasedOn: crit) ] ].
+				infoBar text:
+					(self infoTextBlock value: building) ].
 		building
 			on: R3MouseLeave
 			do: [ :event | 
@@ -43,8 +33,7 @@ setNewScript
 	
 	view
 		on: R3MouseClickDown
-		do: [ :event |
-			Transcript crShow: event element ].
+		do: [ :event | self handleMouseDownOnView: view ].
 	
 	view adjustCamera.
 	

@@ -1,0 +1,15 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/8/2014 17:49",
+	"instvars" : [
+		"selected",
+		"selectionChanged" ],
+	"name" : "CityBrowserWithSelection",
+	"pools" : [
+		 ],
+	"super" : "CityBrowser",
+	"type" : "normal" }

@@ -7,8 +7,7 @@
 	"commentStamp" : "YuriyTymchuk 6/26/2014 16:31",
 	"instvars" : [
 		"ruleList",
-		"infoBar",
-		"roViz",
+		"cityBrowser",
 		"rules",
 		"packagesModel",
 		"rulesByViolator",

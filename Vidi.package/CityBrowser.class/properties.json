@@ -1,0 +1,21 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/8/2014 17:49",
+	"instvars" : [
+		"infoBar",
+		"roViz",
+		"colorBlock",
+		"environment",
+		"packagesModel",
+		"infoTextBlock",
+		"mouseDownOnElement",
+		"mouseDownOnView" ],
+	"name" : "CityBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

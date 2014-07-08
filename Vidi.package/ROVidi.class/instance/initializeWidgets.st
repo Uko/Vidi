@@ -13,7 +13,5 @@ initializeWidgets
 			(rule leaves flatCollect: #critics) size asString, ')' ];
 		items: self rules.
 		
-	roViz := self instantiate: Roassal3DModel.
-	
-	infoBar := self newLabel.
-	self resetInfobar.
+	cityBrowser := self instantiate: CityBrowserWithSelection.
+	self initializeCityBrowser

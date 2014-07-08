@@ -1,0 +1,1 @@
+selected is association containing selected element as a key and original color as a value

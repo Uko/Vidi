@@ -1,18 +1,5 @@
-private
+accessing
 cityForR3
-	| color |
-	
-		color := [ :element |
-		self maxViolations
-			ifNil: Color lightGray
-			ifNotNilDo: [ :violations |
-				Color red lighter lighter 
-					mixed: (self rulesByViolator
-						at: element model mirroredEntity
-						ifAbsent: #()) size
-						/
-						violations size
-					with: Color lightGray ] ] .
 	
 	^ self packagesModel packages collect: [ :package |
 		(District on: package)
@@ -23,10 +10,10 @@ cityForR3
 				building color: (
 					(class isForeign)
 						ifTrue: [ Color black ]
-						ifFalse: [ color ]).
+						ifFalse: [ self colorBlock ]).
 				class methods do: [ :method |
 					building addBrick: (
 						(Brick on: method)
-							color: color;
+							color: self colorBlock;
 							yourself) ].
 				building ] ) ]
