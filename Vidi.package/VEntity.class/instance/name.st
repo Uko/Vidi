@@ -1,3 +1,4 @@
 as yet unclassified
 name
-	^ name
+	"human-understandable mirrored entity title"
+	^ self mirroredEntity name

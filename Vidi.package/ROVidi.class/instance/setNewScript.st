@@ -26,13 +26,15 @@ setNewScript
 		building
 			on: R3MouseEnter
 			do: [ :event | 
-				infoBar text:
-					building model printString,
-					' | ',
-					(self rulesByViolator
-						at: building model mirroredEntity
-						ifAbsent: #()) size printString,
-						' violations' ].
+				infoBar text: building model name.
+				self rulesByViolator
+					at: building model mirroredEntity
+					ifPresent: [ :crit |
+						infoBar text:
+							infoBar text,
+							' | ',
+							crit size printString,
+							(' violation' asPluralBasedOn: crit) ] ].
 		building
 			on: R3MouseLeave
 			do: [ :event | 
@@ -46,4 +48,4 @@ setNewScript
 	
 	view adjustCamera.
 	
-	roViz view: view
+	roViz view: view 
