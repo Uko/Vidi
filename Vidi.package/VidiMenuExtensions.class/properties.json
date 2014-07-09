@@ -1,7 +1,7 @@
 {
 	"category" : "Vidi-Tools",
 	"classinstvars" : [
-		 ],
+		"icon" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "YuriyTymchuk 7/9/2014 14:16",

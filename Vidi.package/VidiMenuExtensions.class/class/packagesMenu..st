@@ -9,4 +9,5 @@ packagesMenu: aBuilder
 	(aBuilder item: #'Open ViDI')
 		action: [ VidiBrowser openWithAllRulesOnPackages: selectedPackages ];
 		order: 3000;
-		help: 'Open a Visual Design Inspector on selected packages'
+		help: 'Open a Visual Design Inspector on selected packages';
+		icon: self vidiIcon
