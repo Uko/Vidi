@@ -1,4 +1,0 @@
-accessing
-packagesModel: anObject
-	packagesModel := anObject.
-	cityBrowser packagesModel: packagesModel

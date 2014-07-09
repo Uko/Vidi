@@ -9,10 +9,11 @@
 		"ruleList",
 		"cityBrowser",
 		"rules",
-		"packagesModel",
 		"rulesByViolator",
 		"maxViolations",
-		"entityInspector" ],
+		"entityInspector",
+		"environment",
+		"refreshButton" ],
 	"name" : "ROVidi",
 	"pools" : [
 		 ],
