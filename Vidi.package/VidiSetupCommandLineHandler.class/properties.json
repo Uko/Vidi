@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/9/2014 09:44",
+	"instvars" : [
+		 ],
+	"name" : "VidiSetupCommandLineHandler",
+	"pools" : [
+		 ],
+	"super" : "CommandLineHandler",
+	"type" : "normal" }

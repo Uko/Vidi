@@ -1,0 +1,1 @@
+I can be triggered from command line with setupvidi
