@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 classes
-	^ self descendents
+	^ classes

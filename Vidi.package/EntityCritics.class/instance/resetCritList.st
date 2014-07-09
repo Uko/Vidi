@@ -1,4 +1,4 @@
-accessing
+protocol
 resetCritList
 
 	critList resetSelection.

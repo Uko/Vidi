@@ -1,10 +1,10 @@
-accessing
+event handling
 cityForR3
 	
 	^ self packagesModel packages collect: [ :package |
 		(District on: package)
 			label: package name;
-			subBuildings: (package classes collect: [ :class |
+			subBuildings: (package descendents collect: [ :class |
 				| building |
 				building := Building on: class.
 				building color: (

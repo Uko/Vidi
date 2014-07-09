@@ -1,1 +1,0 @@
-I represent results of rules 

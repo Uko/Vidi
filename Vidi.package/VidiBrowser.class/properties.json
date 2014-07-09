@@ -1,0 +1,21 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/26/2014 16:31",
+	"instvars" : [
+		"ruleList",
+		"cityBrowser",
+		"rules",
+		"rulesByViolator",
+		"maxViolations",
+		"entityInspector",
+		"environment",
+		"refreshButton" ],
+	"name" : "VidiBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

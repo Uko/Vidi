@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isNotForeign
-	^ environment definesClass: class
+	^ environment definesClass: mirroredEntity 

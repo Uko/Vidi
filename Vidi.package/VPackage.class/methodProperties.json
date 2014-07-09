@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newFrom:inEnvironment:" : "YuriyTymchuk 6/12/2014 15:29" },
+		"newFrom:inEnvironment:" : "YuriyTymchuk 7/9/2014 15:12" },
 	"instance" : {
-		"classes" : "YuriyTymchuk 6/25/2014 10:54",
+		"classes" : "YuriyTymchuk 7/9/2014 15:18",
 		"classes:" : "YuriyTymchuk 6/12/2014 15:25",
-		"descendents" : "YuriyTymchuk 6/12/2014 16:26",
+		"descendents" : "YuriyTymchuk 7/9/2014 15:10",
+		"exClasses" : "YuriyTymchuk 7/9/2014 15:10",
 		"exClasses:" : "YuriyTymchuk 6/12/2014 15:25",
-		"isNotForeign" : "YuriyTymchuk 6/12/2014 16:45",
-		"mirroredEntity" : "YuriyTymchuk 6/12/2014 16:02",
-		"name" : "YuriyTymchuk 7/8/2014 09:36",
-		"package:" : "YuriyTymchuk 6/12/2014 15:14" } }
+		"isNotForeign" : "YuriyTymchuk 7/9/2014 15:34",
+		"name" : "YuriyTymchuk 7/9/2014 15:11",
+		"package:" : "YuriyTymchuk 7/9/2014 15:10" } }

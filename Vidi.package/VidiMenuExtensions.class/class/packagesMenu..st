@@ -7,6 +7,6 @@ packagesMenu: aBuilder
 
 	
 	(aBuilder item: #'Open ViDI')
-		action: [ ROVidi openWithAllRulesOnPackages: selectedPackages ];
+		action: [ VidiBrowser openWithAllRulesOnPackages: selectedPackages ];
 		order: 3000;
 		help: 'Open a Visual Design Inspector on selected packages'

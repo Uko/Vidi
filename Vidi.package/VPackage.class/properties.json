@@ -7,8 +7,7 @@
 	"commentStamp" : "YuriyTymchuk 6/20/2014 13:01",
 	"instvars" : [
 		"classes",
-		"exClasses",
-		"rpackage" ],
+		"exClasses" ],
 	"name" : "VPackage",
 	"pools" : [
 		 ],

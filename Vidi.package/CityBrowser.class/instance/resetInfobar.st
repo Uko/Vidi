@@ -1,4 +1,4 @@
-accessing
+protocol
 resetInfobar
 
 	infoBar text: '• • • • • •'    

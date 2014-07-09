@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 package: anRPackage 
-	rpackage := anRPackage
+	self mirroredEntity: anRPackage 

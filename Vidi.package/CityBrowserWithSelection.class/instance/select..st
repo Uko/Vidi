@@ -1,4 +1,4 @@
-accessing
+selecting
 select: anElement
 	
 	self silentResetSelection.

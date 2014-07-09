@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 mirroredEntity
-	self subclassResponsibility
-	
+
+	^ mirroredEntity

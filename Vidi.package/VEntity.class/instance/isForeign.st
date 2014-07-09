@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isForeign
 	^ self isNotForeign not

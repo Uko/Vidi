@@ -1,4 +1,4 @@
-accessing
+private
 setTextModelForRule: aRule
 
 	(aRule result selectionIntervalFor: entity definition)

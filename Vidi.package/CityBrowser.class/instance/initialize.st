@@ -1,4 +1,4 @@
-accessing
+initialization
 initialize
 	super initialize.
 	colorBlock := [ :item | Color gray ].

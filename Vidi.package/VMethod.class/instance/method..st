@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 method: aMethod
-	method := aMethod
+	self mirroredEntity: aMethod 

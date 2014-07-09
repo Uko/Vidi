@@ -7,7 +7,7 @@
 	"commentStamp" : "YuriyTymchuk 6/20/2014 13:00",
 	"instvars" : [
 		"environment",
-		"name" ],
+		"mirroredEntity" ],
 	"name" : "VEntity",
 	"pools" : [
 		 ],

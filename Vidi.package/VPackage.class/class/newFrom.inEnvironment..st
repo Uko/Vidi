@@ -2,7 +2,6 @@ as yet unclassified
 newFrom: anRPackage inEnvironment: anEnvironment
 
 	^ self new
-		name: anRPackage name;
 		package: anRPackage;
 		environment: anEnvironment;
 		classes:

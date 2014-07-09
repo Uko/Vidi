@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 entities
 	^ self packages,
 	  self classes,

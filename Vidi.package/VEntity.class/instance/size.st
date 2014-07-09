@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 size
 	^ self descendents
 		inject: 0

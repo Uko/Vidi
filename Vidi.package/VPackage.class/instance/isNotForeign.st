@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isNotForeign
-	^ environment packages includes: rpackage 
+	^ environment packages includes: mirroredEntity  

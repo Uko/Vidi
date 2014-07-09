@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 printString
-	^ name
+	^ self name

@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 class: aClass 
-	class := aClass
+	self mirroredEntity: aClass

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 allDescendents
 	^ self descendents, (self descendents flatCollect: #allDescendents)

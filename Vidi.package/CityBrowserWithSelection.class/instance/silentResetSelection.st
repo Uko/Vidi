@@ -1,4 +1,4 @@
-accessing
+selecting
 silentResetSelection
 
 	selected ifNotNil: [ 

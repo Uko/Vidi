@@ -1,4 +1,4 @@
-accessing
+selecting
 toggleSelection: anElement
 
 	selected

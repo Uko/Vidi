@@ -1,8 +1,6 @@
-accessing
+protocol
 resetVisualization
 	| view |
-
-	self resetSelection.
 
 	view := R3View new.
 

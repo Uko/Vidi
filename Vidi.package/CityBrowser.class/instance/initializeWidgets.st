@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeWidgets
 		
 	roViz := self instantiate: Roassal3DModel.

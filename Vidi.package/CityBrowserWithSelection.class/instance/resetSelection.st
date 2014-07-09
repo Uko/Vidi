@@ -1,4 +1,4 @@
-accessing
+protocol
 resetSelection
 
 	self silentResetSelection.

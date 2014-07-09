@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 name
 
-	^ '[Package] ', rpackage name
+	^ '[Package] ', mirroredEntity name

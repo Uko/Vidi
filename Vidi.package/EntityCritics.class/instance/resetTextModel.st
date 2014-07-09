@@ -1,4 +1,4 @@
-accessing
+protocol
 resetTextModel
 
 	codePane resetSelection.

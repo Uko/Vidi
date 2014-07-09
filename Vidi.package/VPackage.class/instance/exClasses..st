@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 exClasses: aCollection 
 	exClasses := aCollection
