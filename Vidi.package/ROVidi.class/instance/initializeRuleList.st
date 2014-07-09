@@ -1,10 +1,6 @@
 initialization
-initializeWidgets
+initializeRuleList
 
-	ruleList := self newList.		
-	cityBrowser := self instantiate: CityBrowserWithSelection.
-	entityInspector := self instantiate: EntityCritics.
-	
 	ruleList
 		beMultipleSelection;
 		autoDeselect: false;
@@ -16,7 +12,4 @@ initializeWidgets
 		displayBlock: [ :rule |
 			rule name, ' (',
 			(rule leaves flatCollect: #critics) size asString, ')' ];
-		items: self rules.
-
-	self initializeRuleList.
-	self initializeCityBrowser
+		items: self rules

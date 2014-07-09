@@ -11,7 +11,8 @@
 		"rules",
 		"packagesModel",
 		"rulesByViolator",
-		"maxViolations" ],
+		"maxViolations",
+		"entityInspector" ],
 	"name" : "ROVidi",
 	"pools" : [
 		 ],

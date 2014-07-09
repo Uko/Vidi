@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"spec" : "YuriyTymchuk 7/8/2014 17:19" },
+		"spec" : "YuriyTymchuk 7/9/2014 10:41" },
 	"instance" : {
 		"cityBrowser" : "YuriyTymchuk 7/8/2014 17:19",
+		"entityInspector" : "YuriyTymchuk 7/9/2014 10:40",
 		"initialExtent" : "YuriyTymchuk 6/27/2014 15:45",
 		"initialize" : "YuriyTymchuk 6/26/2014 13:40",
-		"initializeCityBrowser" : "YuriyTymchuk 7/8/2014 18:20",
-		"initializeWidgets" : "YuriyTymchuk 7/8/2014 17:53",
+		"initializeCityBrowser" : "YuriyTymchuk 7/9/2014 10:54",
+		"initializeRuleList" : "YuriyTymchuk 7/9/2014 10:57",
+		"initializeWidgets" : "YuriyTymchuk 7/9/2014 10:57",
 		"maxViolations" : "YuriyTymchuk 6/26/2014 16:12",
 		"maxViolations:" : "YuriyTymchuk 6/27/2014 09:45",
 		"packagesModel" : "YuriyTymchuk 6/26/2014 13:52",
@@ -15,4 +17,5 @@
 		"rules" : "YuriyTymchuk 6/26/2014 13:40",
 		"rules:" : "YuriyTymchuk 6/26/2014 13:40",
 		"rulesByViolator" : "YuriyTymchuk 6/26/2014 16:15",
+		"rulesFor:" : "YuriyTymchuk 7/9/2014 10:53",
 		"selectedRule" : "YuriyTymchuk 6/26/2014 13:40" } }

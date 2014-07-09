@@ -26,10 +26,10 @@ initializeCityBrowser
 				ifAbsent: [ text ] ].
 			
 	cityBrowser selectionChanged: [ :item | 
-		item ifNotNil: [ 
-		EntityCritics new
-			entity: item model mirroredEntity;
-			critics: (self rulesByViolator
-				at: item model mirroredEntity
-				ifAbsent: #());
-			openDialogWithSpec ] ]
+		item
+			ifNil: [ entityInspector clear ]
+			ifNotNil: [
+			entityInspector
+				entity: item model mirroredEntity;
+				critics: (
+					self rulesFor: item model mirroredEntity) ] ]

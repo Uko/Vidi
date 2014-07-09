@@ -1,6 +1,7 @@
 accessing
 resetTextModel
 
+	codePane resetSelection.
 	codePane aboutToStyle: true.
 	entity
 		ifNil: [ codePane text: '' ]
