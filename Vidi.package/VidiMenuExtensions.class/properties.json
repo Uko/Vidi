@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/9/2014 14:16",
+	"instvars" : [
+		 ],
+	"name" : "VidiMenuExtensions",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
