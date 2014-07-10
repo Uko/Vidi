@@ -8,5 +8,7 @@ rulesByViolator
 				(rulesByViolator
 					at: violator
 					ifAbsentPut: Set new) add: rule ] ] ].
-		
+	
+	self vidiModel assignViolations: rulesByViolator.
+	
 	^ rulesByViolator

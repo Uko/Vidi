@@ -1,5 +1,6 @@
 accessing
 environment: anEnvironment
 	environment := anEnvironment.
+	self vidiModel: (VidiModel new environment: anEnvironment).
 	self reRunRules.
-	cityBrowser environment: environment
+	cityBrowser packagesModel: self vidiModel 

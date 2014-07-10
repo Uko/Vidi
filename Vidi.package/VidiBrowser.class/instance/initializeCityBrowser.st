@@ -14,16 +14,7 @@ initializeCityBrowser
 					with: Color lightGray ] ].
 			
 	cityBrowser infoTextBlock: [ :element | 
-			| text |
-			text := element model name.
-			self rulesByViolator
-				at: element model mirroredEntity
-				ifPresent: [ :crit |
-					text,
-					' | ',
-					crit size printString,
-					(' violation' asPluralBasedOn: crit) ]
-				ifAbsent: [ text ] ].
+			element model infoText ].
 			
 	cityBrowser selectionChanged: [ :item | 
 		item

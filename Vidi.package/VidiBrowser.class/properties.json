@@ -13,7 +13,8 @@
 		"maxViolations",
 		"entityInspector",
 		"environment",
-		"refreshButton" ],
+		"refreshButton",
+		"vidiModel" ],
 	"name" : "VidiBrowser",
 	"pools" : [
 		 ],
