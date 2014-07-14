@@ -1,4 +1,4 @@
 accessing
 vidiModel
 	
-	^ vidiModel ifNil: [ VidiModel new ]
+	^ vidiModel ifNil: [ ReModel new ]

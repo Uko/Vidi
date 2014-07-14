@@ -1,1 +1,0 @@
-I am a common superclass for Vidi metamodels of entities
