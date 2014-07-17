@@ -2,25 +2,24 @@ initialization
 initializeCityBrowser
 
 	cityBrowser colorBlock: [ :element |
-		self maxViolations
-			ifNil: Color lightGray
-			ifNotNilDo: [ :violations |
+		| max |
+		max := (self model entities collect: [ :en | (en selectViolations: self filterBlock) size ]) max.
+		max isZero     
+			ifTrue: [ Color lightGray ]
+			ifFalse: [
 				Color red lighter lighter 
-					mixed: (self rulesByViolator
-						at: element model mirroredEntity
-						ifAbsent: #()) size
+					mixed:
+						(element model selectViolations: self filterBlock) size
 						/
-						violations size
+						max
 					with: Color lightGray ] ].
-			
+
 	cityBrowser infoTextBlock: [ :element | 
-			element model infoText ].
-			
+		element model infoText ].
+
 	cityBrowser selectionChanged: [ :item | 
 		item
-			ifNil: [ entityInspector clear ]
+			ifNil: [
+				entityInspector clear ]
 			ifNotNil: [
-			entityInspector
-				entity: item model mirroredEntity;
-				critics: (
-					self rulesFor: item model mirroredEntity) ] ]
+				entityInspector entity: item model  ] ]

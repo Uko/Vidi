@@ -6,7 +6,7 @@ initializeWidgets
 	
 	critList := self newList.
 	critList
-		displayBlock: [ :rule | rule name ];
+		displayBlock: [ :report | report rule lintRule name ];
 		whenSelectedItemChanged: [ :item | item
 			ifNil: [ self resetTextModel ]
 			ifNotNil: [ self setTextModelForRule: item ] ].

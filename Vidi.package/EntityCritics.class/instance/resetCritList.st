@@ -2,4 +2,4 @@ protocol
 resetCritList
 
 	critList resetSelection.
-	critList items: critics 
+	critList items: (entity ifNil: #() ifNotNil: #reports)

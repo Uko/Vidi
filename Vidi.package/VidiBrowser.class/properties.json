@@ -14,7 +14,7 @@
 		"entityInspector",
 		"environment",
 		"refreshButton",
-		"vidiModel" ],
+		"model" ],
 	"name" : "VidiBrowser",
 	"pools" : [
 		 ],

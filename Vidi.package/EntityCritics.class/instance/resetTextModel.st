@@ -6,7 +6,9 @@ resetTextModel
 	entity
 		ifNil: [ codePane text: '' ]
 		ifNotNil: [  
-			codePane text: entity definition.
-			codePane behavior: (entity isClass
-				ifTrue: [ entity ]
-				ifFalse: [entity methodClass])]
+			| mirroredEntity |
+			mirroredEntity := entity mirroredEntity.
+			codePane text: mirroredEntity definition.
+			codePane behavior: (mirroredEntity isClass
+				ifTrue: [ mirroredEntity ]
+				ifFalse: [ mirroredEntity methodClass ]) ]

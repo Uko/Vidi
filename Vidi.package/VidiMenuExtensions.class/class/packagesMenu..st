@@ -7,7 +7,8 @@ packagesMenu: aBuilder
 
 	
 	(aBuilder item: #'Open ViDI')
-		action: [ VidiBrowser openWithAllRulesOnPackages: selectedPackages ];
+		action: [ 
+			(ReModel withAllLintRulesForPackages: selectedPackages) vidi openWithSpec ];
 		order: 3000;
 		help: 'Open a Visual Design Inspector on selected packages';
 		icon: self vidiIcon
