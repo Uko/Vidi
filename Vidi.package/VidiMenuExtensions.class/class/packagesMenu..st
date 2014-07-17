@@ -8,7 +8,7 @@ packagesMenu: aBuilder
 	
 	(aBuilder item: #'Open ViDI')
 		action: [ 
-			(ReModel withAllLintRulesForPackages: selectedPackages) vidi openWithSpec ];
+			[ (ReModel withAllLintRulesForPackages: selectedPackages) vidi openWithSpec] fork ];
 		order: 3000;
 		help: 'Open a Visual Design Inspector on selected packages';
 		icon: self vidiIcon

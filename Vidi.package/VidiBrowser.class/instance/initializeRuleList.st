@@ -5,9 +5,8 @@ initializeRuleList
 		beMultipleSelection;
 		autoDeselect: false;
 		whenSelectionChanged: [ 
-			rulesByViolator := nil.
-			maxViolations := nil ];
-		displayBlock: [ :assoc |
-			assoc key, ' (',
-			(assoc value sum: #numberOfViolations) asString, ')' ];
-		items: self model categorizedRules associations
+			ruleList listItems do: [ :group |
+				(ruleList selectedItems includes: group)
+					ifTrue: [ group unhide ]
+					ifFalse: [ group hide ] ] ];
+		items: self model categorizedRules

@@ -1,1 +1,0 @@
-I visualize city with roassal 3d 

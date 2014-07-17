@@ -1,5 +1,5 @@
 as yet unclassified
 filterBlock
 
-	^ [ :report | ruleList selectedItems anySatisfy: [ :assoc |
-		assoc key = report rule category ] ]
+	^ [ :report | ruleList selectedItems anySatisfy: [ :grp |
+		grp name = report rule category ] ]
