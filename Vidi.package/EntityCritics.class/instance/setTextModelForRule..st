@@ -1,7 +1,6 @@
 private
 setTextModelForRule: aRule
 
-	"(aRule result selectionIntervalFor: entity definition)
+	aRule selection
 		ifNil: [ codePane resetSelection ]
-		ifNotNilDo: [ :interval |
-			 codePane setSelection: interval ]."
+		ifNotNil: [ codePane setSelection: aRule selection ]
