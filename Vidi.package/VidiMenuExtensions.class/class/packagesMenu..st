@@ -1,4 +1,4 @@
-as yet unclassified
+menu
 packagesMenu: aBuilder
 	<nautilusGlobalPackageMenu>
 	| selectedPackages |

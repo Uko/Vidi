@@ -9,4 +9,9 @@ initializeRuleList
 				(ruleList selectedItems includes: group)
 					ifTrue: [ group unhide ]
 					ifFalse: [ group hide ] ] ];
-		items: self model categorizedRules
+		items: self model categorizedRules.
+		
+	RenrakuAnnouncer uniqueInstance weak
+		when: RePortChanged
+		send: #reportChanged:
+		to: self.
