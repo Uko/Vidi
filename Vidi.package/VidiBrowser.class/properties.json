@@ -9,11 +9,8 @@
 		"ruleList",
 		"cityBrowser",
 		"rules",
-		"rulesByViolator",
-		"maxViolations",
 		"entityInspector",
 		"environment",
-		"refreshButton",
 		"model" ],
 	"name" : "VidiBrowser",
 	"pools" : [

@@ -12,7 +12,7 @@ resetVisualization
 	view addInteraction: R3MKControl.
 	
 	(CityLayoutXZ2 new on: self cityForR3 brickMode: true) do: [ :building |
-		(building model class ~= VPackage and: [ 
+		(building model class ~= RePackage and: [ 
 		 building model isForeign not ]) ifTrue: [ 
 			building
 				on: R3MouseClickDown

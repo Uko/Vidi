@@ -10,8 +10,7 @@
 		"itemTitle",
 		"codePane",
 		"browseButton",
-		"entity",
-		"critics" ],
+		"entity" ],
 	"name" : "EntityCritics",
 	"pools" : [
 		 ],

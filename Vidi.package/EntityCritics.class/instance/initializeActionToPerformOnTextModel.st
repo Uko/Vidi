@@ -5,5 +5,9 @@ initializeActionToPerformOnTextModel
 		entity ifNotNil: [  
 			entity isCompiledMethod
 				ifTrue: [ entity methodClass compile: text ] 
-				ifFalse: [ Smalltalk evaluate: text ] ] ]
+				ifFalse: [ Smalltalk evaluate: text ].
+				
+			self
+				resetCritList;
+				resetTextModel. ] ]
 	
