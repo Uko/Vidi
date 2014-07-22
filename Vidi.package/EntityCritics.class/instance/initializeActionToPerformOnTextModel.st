@@ -3,11 +3,7 @@ initializeActionToPerformOnTextModel
 
 	codePane acceptBlock:  [ :text | 	
 		entity ifNotNil: [  
-			entity isCompiledMethod
-				ifTrue: [ entity methodClass compile: text ] 
-				ifFalse: [ Smalltalk evaluate: text ].
-				
-			self
-				resetCritList;
-				resetTextModel. ] ]
+			entity mirroredEntity isCompiledMethod
+				ifTrue: [ entity mirroredEntity methodClass compile: text ] 
+				ifFalse: [ Smalltalk evaluate: text ] ] ]
 	
