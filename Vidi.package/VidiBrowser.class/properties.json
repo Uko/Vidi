@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 7/22/2014 14:08",
 	"instvars" : [
 		"ruleList",
 		"cityBrowser",
-		"rules",
 		"entityInspector",
-		"environment",
 		"model" ],
 	"name" : "VidiBrowser",
 	"pools" : [

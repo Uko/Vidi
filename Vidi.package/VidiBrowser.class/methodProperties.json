@@ -1,10 +1,6 @@
 {
 	"class" : {
-		"openWithAllRulesOnPackages:" : "YuriyTymchuk 7/9/2014 14:22",
-		"openWithAllRulesOnPackagesNamed:" : "YuriyTymchuk 7/9/2014 13:46",
-		"spec" : "YuriyTymchuk 7/17/2014 16:32",
-		"withAllRulesOnPackages:" : "YuriyTymchuk 7/9/2014 14:21",
-		"withAllRulesOnPackagesNamed:" : "YuriyTymchuk 7/9/2014 14:22" },
+		"spec" : "YuriyTymchuk 7/17/2014 16:32" },
 	"instance" : {
 		"cityBrowser" : "YuriyTymchuk 7/8/2014 17:19",
 		"entityInspector" : "YuriyTymchuk 7/9/2014 10:40",
@@ -13,7 +9,6 @@
 		"initializeCityBrowser" : "YuriyTymchuk 7/17/2014 15:27",
 		"initializeRuleList" : "YuriyTymchuk 7/21/2014 16:28",
 		"initializeWidgets" : "YuriyTymchuk 7/17/2014 16:30",
-		"maxViolations" : "YuriyTymchuk 6/26/2014 16:12",
 		"model" : "YuriyTymchuk 7/15/2014 11:54",
 		"model:" : "YuriyTymchuk 7/21/2014 16:27",
 		"reportChanged:" : "YuriyTymchuk 7/21/2014 16:19",

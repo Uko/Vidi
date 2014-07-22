@@ -1,0 +1,1 @@
+I display code entity (class or method) and relared critics (reports)

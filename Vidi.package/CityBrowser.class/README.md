@@ -1,0 +1,1 @@
+I display a city based on vidi model

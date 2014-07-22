@@ -1,0 +1,1 @@
+I add nautilus packages list menu option to open vidi on selected packages

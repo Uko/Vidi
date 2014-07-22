@@ -1,0 +1,1 @@
+I set up Vidi. I.e. set vidi logo and add vidi group in nautilus
