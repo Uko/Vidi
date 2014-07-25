@@ -1,0 +1,16 @@
+{
+	"category" : "Vidi",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/25/2014 10:15",
+	"instvars" : [
+		"descendents",
+		"layout",
+		"padding" ],
+	"name" : "VidiContainerElement",
+	"pools" : [
+		 ],
+	"super" : "VidiElement",
+	"type" : "normal" }

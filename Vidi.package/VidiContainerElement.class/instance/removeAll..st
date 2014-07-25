@@ -1,0 +1,11 @@
+as yet unclassified
+removeAll: aCollection
+	| oldBase |
+	oldBase := (R3AABox onElements: descendents) extent xz.
+
+	aCollection do: [ :e |
+		self silentRemove: e ].
+	self relayout.
+	
+	oldBase = (R3AABox onElements: descendents) extent xz
+		ifFalse: [ self resize ].

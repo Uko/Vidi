@@ -1,0 +1,1 @@
+I am a model of a class. I lay out elements (methods with a wall layout)
