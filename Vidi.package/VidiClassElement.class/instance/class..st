@@ -9,4 +9,6 @@ class: aClass
 		(aClass descendents collect: [ :method |
 			VidiMethodElement new
 				method: method;
-				yourself ])
+				yourself ]).
+			
+	self morph.

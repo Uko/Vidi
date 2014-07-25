@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"class:" : "YuriyTymchuk 7/24/2014 17:24",
-		"initialize" : "YuriyTymchuk 7/24/2014 18:38" } }
+		"class:" : "YuriyTymchuk 7/25/2014 15:09",
+		"initialize" : "YuriyTymchuk 7/25/2014 15:56",
+		"maxLocalViolations" : "YuriyTymchuk 7/25/2014 15:04",
+		"morph" : "YuriyTymchuk 7/25/2014 15:41",
+		"ruleVisibilityChanged:" : "YuriyTymchuk 7/25/2014 16:09" } }

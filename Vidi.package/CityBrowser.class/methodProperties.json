@@ -2,7 +2,6 @@
 	"class" : {
 		"spec" : "YuriyTymchuk 7/8/2014 14:52" },
 	"instance" : {
-		"cityForR3" : "YuriyTymchuk 7/9/2014 15:20",
 		"colorBlock" : "YuriyTymchuk 7/8/2014 16:19",
 		"colorBlock:" : "YuriyTymchuk 7/8/2014 14:45",
 		"environment:" : "YuriyTymchuk 7/13/2014 21:04",
@@ -18,5 +17,5 @@
 		"packagesModel" : "YuriyTymchuk 7/8/2014 14:45",
 		"packagesModel:" : "YuriyTymchuk 7/8/2014 16:11",
 		"resetInfobar" : "YuriyTymchuk 7/8/2014 14:51",
-		"resetVisualization" : "YuriyTymchuk 7/21/2014 13:47",
+		"resetVisualization" : "YuriyTymchuk 7/25/2014 10:41",
 		"roViz" : "YuriyTymchuk 7/8/2014 14:45" } }

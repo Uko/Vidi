@@ -6,3 +6,8 @@ initialize
 	layout gap: 0.05.
 	shape width: 1.
 	shape depth: 1.
+	
+	RenrakuAnnouncer uniqueInstance weak
+		when: ReRuleVisiblityChanged
+		send: #ruleVisibilityChanged:
+		to: self

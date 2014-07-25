@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"initialize" : "YuriyTymchuk 7/23/2014 21:22",
+		"maxLocalViolations" : "YuriyTymchuk 7/25/2014 15:00",
+		"maxViolations" : "YuriyTymchuk 7/25/2014 15:00",
 		"parent" : "YuriyTymchuk 7/23/2014 17:13",
 		"parent:" : "YuriyTymchuk 7/23/2014 17:13",
 		"renElement" : "YuriyTymchuk 7/23/2014 21:17" } }

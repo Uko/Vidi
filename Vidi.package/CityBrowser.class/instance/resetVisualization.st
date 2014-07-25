@@ -6,12 +6,14 @@ resetVisualization
 
 	view removeAll.
 	view addCameraLight: Color white.
-	"view add: (R3DirectionalLight direction: (R3Vector3 newX: 0.0 y: 0.0 z: 2.0) color: Color white)."
-	"view add: (R3PointLight position: (R3Vector3 newX: -600 y: 800 z: 1000) color: Color white)."
 	
 	view addInteraction: R3MKControl.
 	
-	(CityLayoutXZ2 new on: self cityForR3 brickMode: true) do: [ :building |
+	view add: (VidiModelElement new
+		model: self packagesModel;
+		yourself).
+	
+	"(CityLayoutXZ2 new on: self cityForR3 brickMode: true) do: [ :building |
 		(building model class ~= RePackage and: [ 
 		 building model isForeign not ]) ifTrue: [ 
 			building
@@ -27,7 +29,7 @@ resetVisualization
 			on: R3MouseLeave
 			do: [ :event | 
 				self resetInfobar ].
-		view add: building ].
+		view add: building ]."
 	
 	view
 		on: R3MouseClickDown
