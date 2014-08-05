@@ -1,12 +1,14 @@
 {
-	"category" : "Vidi",
+	"category" : "Vidi-Model",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "YuriyTymchuk 7/25/2014 10:11",
 	"instvars" : [
-		"parent" ],
+		"parent",
+		"prevColor",
+		"selected" ],
 	"name" : "VidiElement",
 	"pools" : [
 		 ],

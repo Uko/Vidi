@@ -1,7 +1,7 @@
 as yet unclassified
 morph
 
-	shape color: (model isForeign
+	self color: (model isForeign
 		ifTrue: [ Color black ]
 		ifFalse: [ 
 			| maxViolations |

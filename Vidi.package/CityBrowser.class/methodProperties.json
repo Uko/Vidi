@@ -2,20 +2,13 @@
 	"class" : {
 		"spec" : "YuriyTymchuk 7/8/2014 14:52" },
 	"instance" : {
-		"colorBlock" : "YuriyTymchuk 7/8/2014 16:19",
-		"colorBlock:" : "YuriyTymchuk 7/8/2014 14:45",
-		"environment:" : "YuriyTymchuk 7/13/2014 21:04",
-		"handleMouseDownOnElement:" : "YuriyTymchuk 7/8/2014 17:47",
-		"handleMouseDownOnView:" : "YuriyTymchuk 7/8/2014 17:47",
+		"elementSelectedBlock:" : "YuriyTymchuk 8/4/2014 18:33",
 		"infoBar" : "YuriyTymchuk 7/8/2014 14:45",
-		"infoTextBlock" : "YuriyTymchuk 7/8/2014 16:22",
-		"infoTextBlock:" : "YuriyTymchuk 7/8/2014 16:19",
-		"initialize" : "YuriyTymchuk 7/8/2014 17:50",
-		"initializeWidgets" : "YuriyTymchuk 7/8/2014 14:51",
-		"mouseDownOnElement:" : "YuriyTymchuk 7/8/2014 17:41",
-		"mouseDownOnView:" : "YuriyTymchuk 7/8/2014 17:41",
+		"initialize" : "YuriyTymchuk 8/4/2014 18:10",
+		"initializeWidgets" : "YuriyTymchuk 8/4/2014 18:11",
 		"packagesModel" : "YuriyTymchuk 7/8/2014 14:45",
 		"packagesModel:" : "YuriyTymchuk 7/8/2014 16:11",
 		"resetInfobar" : "YuriyTymchuk 7/8/2014 14:51",
-		"resetVisualization" : "YuriyTymchuk 7/25/2014 10:41",
-		"roViz" : "YuriyTymchuk 7/8/2014 14:45" } }
+		"resetVisualization" : "YuriyTymchuk 8/4/2014 18:08",
+		"roViz" : "YuriyTymchuk 7/8/2014 14:45",
+		"selectionRemovedBlock:" : "YuriyTymchuk 8/4/2014 18:35" } }

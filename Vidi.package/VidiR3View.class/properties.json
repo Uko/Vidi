@@ -1,0 +1,18 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/4/2014 16:51",
+	"instvars" : [
+		"selectionBlock",
+		"deselectionBlock",
+		"selectedElement",
+		"hoverOnElementBlock",
+		"stopHoverOnElementBlock" ],
+	"name" : "VidiR3View",
+	"pools" : [
+		 ],
+	"super" : "R3View",
+	"type" : "normal" }
