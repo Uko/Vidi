@@ -8,5 +8,5 @@ relayout
 	self applyLayout.
 	R3Move placeElements: descendents onTopOf: self boundingBox topCenter.
 	
-	oldBase = (R3AABox onElements: descendents) extent xz
+	(oldBase closeTo: (R3AABox onElements: descendents) extent xz)
 		ifFalse: [ self resize ]

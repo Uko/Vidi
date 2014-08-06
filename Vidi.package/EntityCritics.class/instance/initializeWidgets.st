@@ -30,4 +30,8 @@ initializeWidgets
 		
 		when: ReEntityUpdated
 		send: #entityUpdated:
+		to: self;
+		
+		when: ReEntityRemoved
+		send: #entityRemoved:
 		to: self.

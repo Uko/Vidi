@@ -4,11 +4,12 @@
 	"instance" : {
 		"color:" : "YuriyTymchuk 8/4/2014 20:26",
 		"deselect" : "YuriyTymchuk 8/4/2014 20:29",
-		"initialize" : "YuriyTymchuk 8/4/2014 20:27",
+		"initialize" : "YuriyTymchuk 8/6/2014 15:18",
 		"maxLocalViolations" : "YuriyTymchuk 7/25/2014 15:00",
 		"maxViolations" : "YuriyTymchuk 7/25/2014 15:00",
 		"parent" : "YuriyTymchuk 7/23/2014 17:13",
 		"parent:" : "YuriyTymchuk 7/23/2014 17:13",
+		"reEntityRemoved:" : "YuriyTymchuk 8/6/2014 15:19",
 		"renElement" : "YuriyTymchuk 7/23/2014 21:17",
 		"selected" : "YuriyTymchuk 8/4/2014 20:39",
 		"selected:" : "YuriyTymchuk 8/6/2014 11:39",
