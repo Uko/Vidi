@@ -1,6 +1,8 @@
 as yet unclassified
 selected: aBoolean
 
+	selected = aBoolean ifTrue: [ ^ selected ].
+
 	selected := aBoolean.
 	
 	selected

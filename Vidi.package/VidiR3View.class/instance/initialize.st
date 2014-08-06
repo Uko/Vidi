@@ -9,8 +9,4 @@ initialize
 	
 	self
 		on: R3MouseClickDown
-		do: [ 
-			selectedElement ifNotNil: [ 
-				selectedElement deselect.
-				self deselectElement ] ]
-		
+		do: [ self deselectElement ]

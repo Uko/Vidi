@@ -9,4 +9,8 @@ initialize
 	RenrakuAnnouncer uniqueInstance weak
 		when: ReRuleVisiblityChanged
 		send: #ruleVisibilityChanged:
+		to: self;
+		
+		when: ReEntityUpdated 
+		send: #reEntityUpdated:
 		to: self

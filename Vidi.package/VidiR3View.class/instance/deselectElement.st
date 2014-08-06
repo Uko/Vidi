@@ -1,4 +1,6 @@
 as yet unclassified
 deselectElement
-	deselectionBlock cull: selectedElement.
-	selectedElement := nil
+	selectedElement ifNotNil: [ 
+		selectedElement deselect.
+		deselectionBlock cull: selectedElement.
+		selectedElement := nil ]

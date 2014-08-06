@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"class:" : "YuriyTymchuk 7/25/2014 15:09",
-		"initialize" : "YuriyTymchuk 7/25/2014 15:56",
+		"initialize" : "YuriyTymchuk 8/6/2014 11:36",
 		"maxLocalViolations" : "YuriyTymchuk 7/25/2014 15:04",
 		"morph" : "YuriyTymchuk 8/4/2014 20:25",
+		"reEntityUpdated:" : "YuriyTymchuk 8/6/2014 11:38",
 		"ruleVisibilityChanged:" : "YuriyTymchuk 7/25/2014 16:09" } }

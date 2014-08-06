@@ -6,5 +6,4 @@ handleClickOnElement: anElement
 			selectedElement ifNotNilDo: #deselect.
 			selectionBlock cull: anElement cull: selectedElement.
 			selectedElement := anElement ]
-		ifFalse: [
-			selectedElement ifNotNil: [ self deselectElement ] ]
+		ifFalse: [ self deselectElement ]
