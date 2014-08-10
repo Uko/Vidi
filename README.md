@@ -14,3 +14,5 @@ Or execute in your image:
 
 ![Vidi logo](media/logo.png)
 V̲i̲sual d̲esign i̲nspector with a block flavour
+
+Colors: `#33aaff` `#ff8833`
