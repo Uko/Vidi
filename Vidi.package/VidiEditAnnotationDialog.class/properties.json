@@ -1,0 +1,16 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/14/2014 11:06",
+	"instvars" : [
+		"description",
+		"annotation",
+		"entity" ],
+	"name" : "VidiEditAnnotationDialog",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

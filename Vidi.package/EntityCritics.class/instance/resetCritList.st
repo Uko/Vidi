@@ -2,4 +2,4 @@ protocol
 resetCritList
 
 	critList resetSelection.
-	critList items: (entity ifNil: #() ifNotNilDo: #visibleViolations)
+	critList roots: (entity ifNil: #() ifNotNilDo: #visibleViolations)

@@ -4,13 +4,31 @@ initializeWidgets
 	itemTitle := self newLabel.
 	itemTitle emphasis: 1.
 	
-	critList := self newList.
+	critList := self newTree.
 	critList
 		displayBlock: [ :report | report rule lintRule name ];
 		whenSelectedItemChanged: [ :item | item
 			ifNil: [ self resetTextModel ]
-			ifNotNil: [ self setTextModelForRule: item ] ].
-	
+			ifNotNil: [ self setTextModelForRule: item ] ];
+		allowMenuOnNoItem: true;
+		menu: [ :menu | menu
+			addGroup: [:aGroup | aGroup
+				addItem: [ :item | item
+					name: 'Add note…' translated;
+            		action: [ VidiEditAnnotationDialog new
+						openDialogWithSpec ] ].
+				
+			critList selectedItem ifNotNilDo: [ :litem |
+				aGroup
+					addItem: [ :item | item
+						name: 'Details' translated;
+            			action: [ VidiReportDialog new
+							report: litem content;
+							openDialogWithSpec ] ];
+					addItem: [ :item | item
+						name: 'Remove report' translated;
+            			action: [ litem content selfDestruct ] ] ] ] ].
+		
 	codePane := self newText.
 	self initializeActionToPerformOnTextModel.
 	
@@ -34,4 +52,4 @@ initializeWidgets
 		
 		when: ReEntityRemoved
 		send: #entityRemoved:
-		to: self.
+		to: self. 

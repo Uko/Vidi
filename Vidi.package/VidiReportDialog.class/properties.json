@@ -1,0 +1,15 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/11/2014 11:40",
+	"instvars" : [
+		"title",
+		"description" ],
+	"name" : "VidiReportDialog",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
