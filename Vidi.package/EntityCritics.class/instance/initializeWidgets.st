@@ -6,7 +6,7 @@ initializeWidgets
 	
 	critList := self newTree.
 	critList
-		displayBlock: [ :report | report rule lintRule name ];
+		displayBlock: [ :report | report title ];
 		whenSelectedItemChanged: [ :item | item
 			ifNil: [ self resetTextModel ]
 			ifNotNil: [ self setTextModelForRule: item ] ];
@@ -16,6 +16,7 @@ initializeWidgets
 				addItem: [ :item | item
 					name: 'Add note…' translated;
             		action: [ VidiEditAnnotationDialog new
+						entity: entity;
 						openDialogWithSpec ] ].
 				
 			critList selectedItem ifNotNilDo: [ :litem |

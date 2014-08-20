@@ -5,9 +5,9 @@ initializeDialogWindow: aWindow
 		toolbar: OkCancelToolbar new;
 		okAction: [ 
 			annotation
-				ifNil: [ 
+				ifNil: [
 					ReNote
-						note: description text
+						note: description pendingText asString
 						entity: entity ]
 				ifNotNil: [
-					annotation text: description text ] ].
+					annotation text: description pendingText asString ] ].
