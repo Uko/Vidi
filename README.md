@@ -12,6 +12,13 @@ Or execute in your image:
       load.
     #ConfigurationOfVidi asClass loadDevelopment
 
+How to use:
+-----------
+Just right-click on your package in Nautilus and select "Run Vidi"
+![how to run](media/how-to1.png)
+
+More:
+-----
 ![Vidi logo](media/logo.png)
 V̲i̲sual d̲esign i̲nspector with a block flavour
 
