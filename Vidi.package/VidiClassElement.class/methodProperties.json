@@ -3,7 +3,5 @@
 		 },
 	"instance" : {
 		"class:" : "YuriyTymchuk 7/25/2014 15:09",
-		"initialize" : "YuriyTymchuk 8/6/2014 11:36",
-		"maxLocalViolations" : "YuriyTymchuk 7/25/2014 15:04",
-		"reEntityUpdated:" : "YuriyTymchuk 8/6/2014 11:38",
-		"ruleVisibilityChanged:" : "YuriyTymchuk 8/17/2014 11:10" } }
+		"initialize" : "YuriyTymchuk 8/21/2014 11:35",
+		"maxLocalViolations" : "YuriyTymchuk 7/25/2014 15:04" } }

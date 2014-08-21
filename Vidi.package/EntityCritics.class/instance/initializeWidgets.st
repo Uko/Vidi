@@ -53,4 +53,12 @@ initializeWidgets
 		
 		when: ReEntityRemoved
 		send: #entityRemoved:
-		to: self. 
+		to: self;
+		
+		when: RePortAdded
+		send: #reportChanged:
+		to: self;
+		
+		when: RePortRemoved
+		send: #reportRemoved:
+		to: self

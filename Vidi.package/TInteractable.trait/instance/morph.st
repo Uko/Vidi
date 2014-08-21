@@ -1,7 +1,7 @@
 as yet unclassified
 morph
 
-	self color: (model isForeign
+	self color: (self model isForeign
 		ifTrue: [ Color black ]
 		ifFalse: [ 
 			| maxViolations |
@@ -9,6 +9,6 @@ morph
 			maxViolations isZero
 				ifTrue:  [ Color gray ]
 				ifFalse: [ Color red
-					mixed: model numberOfVisibleViolations / maxViolations
+					mixed: self model numberOfVisibleViolations / maxViolations
 					with: Color gray ]
 			 ])

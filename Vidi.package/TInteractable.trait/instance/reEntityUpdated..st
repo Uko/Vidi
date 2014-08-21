@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 reEntityUpdated: ann 
 
 	model ifNil: [ ^self ].
