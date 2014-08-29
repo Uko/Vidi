@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/29/2014 11:21",
+	"instvars" : [
+		"block" ],
+	"name" : "StupidBlockFilter",
+	"pools" : [
+		 ],
+	"super" : "AbstractTreeFilter",
+	"type" : "normal" }

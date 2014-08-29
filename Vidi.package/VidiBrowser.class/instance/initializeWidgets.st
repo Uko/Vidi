@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
 
-	ruleList := self newList.	
+	ruleList := self newTree.	
 	cityBrowser := self instantiate: CityBrowser.
 	entityInspector := self instantiate: EntityCritics.
 	

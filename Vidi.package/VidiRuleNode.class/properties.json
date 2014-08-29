@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VidiRuleNode",
+	"pools" : [
+		 ],
+	"super" : "TreeNodeModel",
+	"type" : "normal" }

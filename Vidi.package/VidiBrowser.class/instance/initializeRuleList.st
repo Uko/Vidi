@@ -2,16 +2,26 @@ initialization
 initializeRuleList
 
 	ruleList
-		beMultipleSelection;
-		autoDeselect: false;
-		whenSelectionChanged: [ 
-			ruleList listItems do: [ :group |
-				(ruleList selectedItems includes: group)
-					ifTrue: [ group unhide ]
-					ifFalse: [ group hide ] ] ];
-		items: self model categorizedRules.
+		beCheckList;
+		autoMultiSelection: true;
+		rootNodeHolder: [ :item |
+			VidiRuleGroup new
+				content: item;
+				yourself ];
+		roots: self model categorizedRules;
+		columns: {
+			TreeColumnModel new
+				headerLabel: 'Rule';
+				displayBlock: [ :node |
+					node content name ] .
+			TreeColumnModel new
+				headerLabel: 'Critics';
+				initialWidth: 20;
+				resizable: false;
+				displayBlock: [ :node |
+					node content numberOfViolations ] }.
 		
 	RenrakuAnnouncer uniqueInstance weak
 		when: RePortChanged
 		send: #reportChanged:
-		to: self.
+		to: self. 
