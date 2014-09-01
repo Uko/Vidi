@@ -9,7 +9,9 @@
 		"ruleList",
 		"cityBrowser",
 		"entityInspector",
-		"model" ],
+		"model",
+		"mainView",
+		"paneBrowser" ],
 	"name" : "VidiBrowser",
 	"pools" : [
 		 ],

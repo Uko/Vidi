@@ -3,7 +3,7 @@ model: aModel
 	
 	model := aModel.
 	cityBrowser packagesModel: self model.
-	ruleList roots: self model categorizedRules.
-
-	ruleList roots do: #hide.
+	paneBrowser refresh.
+	
+	ruleList items: self model categorizedRules.
 	ruleList resetSelection.
