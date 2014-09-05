@@ -1,0 +1,1 @@
+I record when some event happens during Vidi session

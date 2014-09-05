@@ -1,0 +1,18 @@
+{
+	"category" : "Vidi-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 9/5/2014 09:24",
+	"instvars" : [
+		"startTime",
+		"endTime",
+		"packages",
+		"events",
+		"model" ],
+	"name" : "VidiSession",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

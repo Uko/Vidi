@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 9/5/2014 11:11",
+	"instvars" : [
+		 ],
+	"name" : "VidiSessionPackagesSelect",
+	"pools" : [
+		 ],
+	"super" : "SelectBrowser",
+	"type" : "normal" }

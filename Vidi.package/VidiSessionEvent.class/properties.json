@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 9/5/2014 09:44",
+	"instvars" : [
+		"timeStamp" ],
+	"name" : "VidiSessionEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
