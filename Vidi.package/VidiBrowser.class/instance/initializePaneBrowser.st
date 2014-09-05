@@ -27,7 +27,7 @@ initializePaneBrowser
 				clsEl ].
 			
 			RTNest new 
-				layout: RTGridLayout new;
+				layout: (RTRectanglePackLayout new padding: 2);
 				on: pacEl nest: classes.	
 			
 			view add: pacEl.
