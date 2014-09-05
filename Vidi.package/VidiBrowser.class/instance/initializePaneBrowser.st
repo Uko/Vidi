@@ -2,7 +2,7 @@ initialization
 initializePaneBrowser
 
 	paneBrowser script: [ :view |
-		RTGridLayout on: (model packages collect: [ :pac |
+		(RTRectanglePackLayout new padding: 2) on: (model packages collect: [ :pac |
 			| pacEl classes |
 			pacEl := RTBox new
 				color: Color veryVeryLightGray;
