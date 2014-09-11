@@ -1,11 +1,9 @@
 as yet unclassified
 nextAction
 
-	|  packages session |	
+	| packages |	
 	
 	packages := selectedModel listItems.
 	self delete.
 	
-	[
-		session := (VidiSession new initializePackages: packages).
-		session openVidi ] fork.
+	[ (VidiSessionManager default newSessionOnPackages: packages) openVidi ] fork.
