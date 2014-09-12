@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"spec" : "YuriyTymchuk 9/1/2014 13:24" },
+		"spec" : "Uko 9/11/2014 19:24:19" },
 	"instance" : {
 		"entityInspector" : "YuriyTymchuk 7/9/2014 10:40",
-		"initialExtent" : "YuriyTymchuk 9/1/2014 09:55",
-		"initialize" : "YuriyTymchuk 8/29/2014 16:51",
+		"initialExtent" : "Uko 9/11/2014 19:24:19",
+		"initialize" : "Uko 9/11/2014 19:24:19",
 		"initializeCityBrowser" : "YuriyTymchuk 8/4/2014 18:32",
-		"initializePaneBrowser" : "YuriyTymchuk 9/5/2014 16:38",
-		"initializeRuleList" : "YuriyTymchuk 7/21/2014 16:28",
-		"initializeWidgets" : "YuriyTymchuk 9/1/2014 14:51",
-		"mainView" : "YuriyTymchuk 9/1/2014 13:22",
+		"initializePaneBrowser" : "Uko 9/11/2014 19:24:19",
+		"initializeRuleList" : "YuriyTymchuk 9/12/2014 10:53",
+		"initializeWidgets" : "YuriyTymchuk 9/12/2014 10:52",
+		"mainView" : "Uko 9/11/2014 19:24:19",
 		"model" : "YuriyTymchuk 7/15/2014 11:54",
-		"model:" : "YuriyTymchuk 9/1/2014 13:18",
-		"reportChanged:" : "YuriyTymchuk 7/21/2014 16:19",
+		"model:" : "YuriyTymchuk 9/12/2014 10:53",
+		"reportChanged:" : "YuriyTymchuk 9/12/2014 10:53",
 		"ruleList" : "YuriyTymchuk 6/26/2014 13:40" } }
