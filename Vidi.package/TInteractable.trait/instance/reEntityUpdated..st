@@ -1,5 +1,5 @@
 accessing
 reEntityUpdated: ann 
 
-	model ifNil: [ ^self ].
-	(ann affectedEntity = model) ifTrue: [ self morph ]
+	self model ifNil: [ ^self ].
+	(ann affectedEntity = self model) ifTrue: [ self morph ]

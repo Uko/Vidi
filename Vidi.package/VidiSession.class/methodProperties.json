@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"events" : "YuriyTymchuk 9/18/2014 16:21",
 		"initialize" : "Uko 9/11/2014 19:24:19",
 		"initializePackages:" : "Uko 9/11/2014 19:24:19",
+		"interestedIn:" : "YuriyTymchuk 9/18/2014 16:17",
 		"openVidi" : "Uko 9/11/2014 19:24:19" } }
