@@ -1,0 +1,4 @@
+*vidi
+name
+
+	^ self behaviorAffectedName

@@ -5,9 +5,11 @@ initializeWidgets
 	self instantiateModels: #(
 		toSelectModel ListModel
 		selectedModel ListModel).
-	selectedModel beMultipleSelection.
 	toSelectModel beMultipleSelection.
 	toSelectModel displayBlock: [ :package |
 		package packageName ].
+	selectedModel beMultipleSelection.
 	selectedModel displayBlock: [ :package |
-		package packageName ]
+		package packageName ].
+	
+	self focusOrder removeAll add: toSelectModel
