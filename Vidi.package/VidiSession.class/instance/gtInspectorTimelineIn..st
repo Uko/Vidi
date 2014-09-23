@@ -21,6 +21,7 @@ gtInspectorTimelineIn: composite
 				min: 0
 				max: 500;
 				
+				minSize: 15;
 				alphaColor: 0.7;
 				execute.
 				
