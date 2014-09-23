@@ -13,7 +13,10 @@ gtInspectorTimelineIn: composite
 			earliest := ((self events detectMin: [ :om | om tags at: #time ]) tags at: #time) asSeconds.
 			
 			
-			view addAll: (RTEllipse elementsOn: self events) @ popup.
+			view addAll: ((RTEllipse elementsOn: self events)
+				@ popup;
+				@ RTHighlightable;
+				yourself).
 			RTGlobalBuilder new
 				view: view;
 				
