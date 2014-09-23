@@ -1,3 +1,3 @@
 as yet unclassified
 printString
-	^ packages printString 
+	^ 'Session on: ', ((packages collect: #name) asOrderedCollection joinUsing: ', ')
