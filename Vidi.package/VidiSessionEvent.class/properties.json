@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 9/5/2014 09:44",
 	"instvars" : [
-		"timeStamp" ],
+		"timeStamp",
+		"event",
+		"quality" ],
 	"name" : "VidiSessionEvent",
 	"pools" : [
 		 ],

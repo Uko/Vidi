@@ -3,14 +3,14 @@ gtInspectorTimelineIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 15>
 	| popup |
-	popup := RTPopup text: [ :om |
-		om content name, ' [',
-		(om content class name allButFirst: 2), ']' ].
+	popup := RTPopup text: [ :ev |
+		ev event name, ' [',
+		(ev event class name allButFirst: 2), ']' ].
 	composite roassal2
 		title: 'Timeline';
 		painting: [ :view | 
 			| earliest |
-			earliest := ((self events detectMin: [ :om | om tags at: #time ]) tags at: #time) asSeconds.
+			earliest := ((self events detectMin: #timeStamp) timeStamp) asSeconds.
 			
 			
 			view addAll: ((RTEllipse elementsOn: self events)
@@ -20,7 +20,7 @@ gtInspectorTimelineIn: composite
 			RTGlobalBuilder new
 				view: view;
 				
-				normalizeX: [ :om | (om tags at: #time) asSeconds - earliest ]
+				normalizeX: [ :ev | ev timeStamp asSeconds - earliest ]
 				min: 0
 				max: 500;
 				

@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"events" : "YuriyTymchuk 9/18/2014 16:21",
-		"gtInspectorEventsIn:" : "YuriyTymchuk 9/22/2014 21:28",
-		"gtInspectorTimelineIn:" : "YuriyTymchuk 9/23/2014 09:18",
-		"initialize" : "Uko 9/11/2014 19:24:19",
-		"initializePackages:" : "Uko 9/11/2014 19:24:19",
-		"interestedIn:" : "YuriyTymchuk 9/18/2014 16:17",
+		"epEntryAdded:" : "YuriyTymchuk 9/23/2014 11:03",
+		"events" : "YuriyTymchuk 9/23/2014 11:04",
+		"gtInspectorEventsIn:" : "YuriyTymchuk 9/23/2014 11:05",
+		"gtInspectorQualitylineIn:" : "YuriyTymchuk 9/23/2014 15:08",
+		"gtInspectorTimelineIn:" : "YuriyTymchuk 9/23/2014 11:11",
+		"initialize" : "YuriyTymchuk 9/23/2014 10:53",
+		"initializePackages:" : "YuriyTymchuk 9/23/2014 18:16",
+		"interestedIn:" : "YuriyTymchuk 9/23/2014 12:13",
 		"openVidi" : "Uko 9/11/2014 19:24:19",
 		"printString" : "YuriyTymchuk 9/23/2014 10:15" } }

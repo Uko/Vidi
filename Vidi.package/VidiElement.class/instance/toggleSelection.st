@@ -1,4 +1,4 @@
-as yet unclassified
+private
 toggleSelection
 
 	^ self selected: self selected not.

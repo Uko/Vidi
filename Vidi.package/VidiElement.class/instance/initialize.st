@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initialize
 	super initialize.
 	self shape: R3CubeShape new.

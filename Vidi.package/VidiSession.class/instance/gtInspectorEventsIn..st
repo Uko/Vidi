@@ -5,5 +5,5 @@ gtInspectorEventsIn: composite
 	composite list 
 		title: 'Events';
 		display: [ self events ];
-		format: [ :entry | entry content name ];
-		tags: [ :each | {each content class name allButFirst: 2} ]
+		format: [ :event | event event name ];
+		tags: [ :each | {each event class name allButFirst: 2} ]
