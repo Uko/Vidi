@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeFixingGroup: aGroup
 
 	critList selectedItem ifNotNilDo: [ :litem |

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 "protocol: accessing"
 block: anObject
 	block := anObject

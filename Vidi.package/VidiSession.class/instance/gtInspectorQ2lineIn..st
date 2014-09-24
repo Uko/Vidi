@@ -1,30 +1,33 @@
 as yet unclassified
-gtInspectorQualitylineIn: composite
+gtInspectorQ2lineIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 14>
 	
 	composite roassal2
-		title: 'Quality';
+		title: 'Q2';
 		painting: [ :view | 
-			| lowestq earliest b |
-			earliest := self events first timeStamp asSeconds.
-			lowestq := (self events detectMin: #quality) quality.
+			| lowestq earliest b series |
+			series := (self events groupedBy: [ :ev | ev timeStamp asSeconds roundTo: 60 ])
+				associations sorted: [ :fst :snd | fst key < snd key ].
+			
+			earliest := series first key.
+			lowestq := (series collect: [ :s | (s value collect: #quality) average ]) min.
 			
 			b := RTCharterBuilder new.
 			b view: view.
 			b extent: 700 @ 300.
 			b interaction popup.
-			b points: self events.
+			b points: series.
 			b connectDotColor: Color red.
-			b allY: [ :ev | ev quality - lowestq + 1 ].
-			b allX: [ :ev | ev timeStamp asSeconds - earliest ].
-			"b stackX."
+			b allY: [ :s | (s value collect: #quality) average - lowestq + 1 ].
+			"b allX: [ :ev | ev key - earliest ].
+			"b stackX.
 			b axisConfiguration 
 				labelRotation: -20;
 				 labelConvertion: [ :sec | 
 					String streamContents: [ :s |
-						self events first timeStamp + sec asSeconds printHMSOn: s ] ].
-			b  axisX.
+						sec asSeconds ] ].
+			b axisX.
 			b resetAxisConfiguration.
 			b axisConfiguration 
 				 labelConvertion: [ :qua | 

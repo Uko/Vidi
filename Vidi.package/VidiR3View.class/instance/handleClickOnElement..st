@@ -1,4 +1,4 @@
-as yet unclassified
+event-handling
 handleClickOnElement: anElement
 
 	anElement toggleSelection

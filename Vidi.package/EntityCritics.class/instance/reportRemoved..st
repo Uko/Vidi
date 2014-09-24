@@ -1,4 +1,4 @@
-as yet unclassified
+announcer handling
 reportRemoved: ann 
 
 	ann affectedEntity = entity ifTrue: [ 

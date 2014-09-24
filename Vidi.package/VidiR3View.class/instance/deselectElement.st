@@ -1,4 +1,4 @@
-as yet unclassified
+action
 deselectElement
 	selectedElement ifNotNil: [ 
 		selectedElement deselect.

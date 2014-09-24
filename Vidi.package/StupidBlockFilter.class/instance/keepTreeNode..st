@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 "protocol: accessing"
 keepTreeNode: aNode
 	self halt.

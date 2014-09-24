@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 "protocol: as yet unclassified"
 content: anObject
 	super content: anObject.

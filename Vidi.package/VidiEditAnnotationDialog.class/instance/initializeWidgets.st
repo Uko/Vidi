@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWidgets
 
 	description := self newText.

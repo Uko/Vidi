@@ -1,4 +1,4 @@
-as yet unclassified
+action
 add: anElement
 	super add: anElement.
 	anElement

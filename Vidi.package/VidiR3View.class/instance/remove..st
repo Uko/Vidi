@@ -1,4 +1,4 @@
-as yet unclassified
+action
 remove: anElement
 	selectedElement = anElement ifTrue: [ 
 		self deselectElement ].

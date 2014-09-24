@@ -2,13 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"active" : "YuriyTymchuk 9/24/2014 16:40",
+		"complain" : "YuriyTymchuk 9/24/2014 16:39",
 		"epEntryAdded:" : "YuriyTymchuk 9/23/2014 11:03",
 		"events" : "YuriyTymchuk 9/23/2014 11:04",
 		"gtInspectorEventsIn:" : "YuriyTymchuk 9/23/2014 11:05",
-		"gtInspectorQualitylineIn:" : "YuriyTymchuk 9/23/2014 15:08",
+		"gtInspectorQ2lineIn:" : "YuriyTymchuk 9/24/2014 15:53",
+		"gtInspectorQualitylineIn:" : "YuriyTymchuk 9/24/2014 11:41",
 		"gtInspectorTimelineIn:" : "YuriyTymchuk 9/23/2014 11:11",
 		"initialize" : "YuriyTymchuk 9/23/2014 10:53",
 		"initializePackages:" : "YuriyTymchuk 9/23/2014 18:16",
 		"interestedIn:" : "YuriyTymchuk 9/23/2014 12:13",
-		"openVidi" : "Uko 9/11/2014 19:24:19",
-		"printString" : "YuriyTymchuk 9/23/2014 10:15" } }
+		"openVidi" : "YuriyTymchuk 9/24/2014 16:39",
+		"printString" : "YuriyTymchuk 9/23/2014 10:15",
+		"stop" : "YuriyTymchuk 9/24/2014 16:42" } }

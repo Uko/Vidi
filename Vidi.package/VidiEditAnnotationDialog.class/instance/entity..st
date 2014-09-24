@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 entity: anEntity
 
 	entity := anEntity
