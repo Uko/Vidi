@@ -1,4 +1,4 @@
-accessing
+announcer handling
 reEntityUpdated: ann 
 
 	self model ifNil: [ ^self ].

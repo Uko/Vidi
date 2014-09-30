@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 openVidi
 	self active ifFalse: [ ^ self complain ].
 	model vidi openWithSpec 

@@ -2,6 +2,6 @@ instance creation
 "protocol: as yet unclassified"
 new: aBlock
 
-	self new 
+	^ self new 
 		block: aBlock;
 		yourself

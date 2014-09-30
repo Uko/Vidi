@@ -1,7 +1,9 @@
-as yet unclassified
+gt
 gtInspectorEventsIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 20>
+	self events ifEmpty: [ ^ self ].
+	
 	composite list 
 		title: 'Events';
 		display: [ self events ];

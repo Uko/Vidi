@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 silentAdd: anElement
 	anElement parent: self.
 	descendents add: anElement.

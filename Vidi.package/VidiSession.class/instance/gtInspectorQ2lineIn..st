@@ -1,12 +1,15 @@
-as yet unclassified
+gt
 gtInspectorQ2lineIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 14>
+	self events ifEmpty: [ ^ self ].
+	
 	
 	composite roassal2
 		title: 'Q2';
 		painting: [ :view | 
 			| lowestq earliest b series |
+			
 			series := (self events groupedBy: [ :ev | ev timeStamp asSeconds roundTo: 60 ])
 				associations sorted: [ :fst :snd | fst key < snd key ].
 			

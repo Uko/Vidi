@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 model: aModel
 
 	self model = aModel ifTrue: [ ^ self ].

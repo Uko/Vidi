@@ -1,4 +1,4 @@
-as yet unclassified
+gt
 gtInspectorTimelineIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 15>

@@ -1,4 +1,4 @@
-accessing
+action
 translateByX: newX y: newY z: newZ
 
 	

@@ -1,4 +1,4 @@
-accessing
+initialize
 initialize
 	super initialize.
 	padding := 0.5.

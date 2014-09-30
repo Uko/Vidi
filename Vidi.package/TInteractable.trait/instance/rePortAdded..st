@@ -1,4 +1,4 @@
-as yet unclassified
+announcer handling
 rePortAdded: ann
 
 	self model = ann affectedReport entity

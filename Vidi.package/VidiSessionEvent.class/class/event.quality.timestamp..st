@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 event: anEpMethodModification quality: anInteger timestamp: aDateAndTime 
 	^ self new 
 		initializeEvent: anEpMethodModification

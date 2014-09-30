@@ -1,4 +1,4 @@
-as yet unclassified
+private
 complain
 
 	self inform: 'Oh no you don''t!'

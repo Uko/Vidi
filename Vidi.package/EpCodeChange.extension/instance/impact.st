@@ -1,0 +1,4 @@
+*vidi
+impact
+
+	^ self subclassResponsibility 

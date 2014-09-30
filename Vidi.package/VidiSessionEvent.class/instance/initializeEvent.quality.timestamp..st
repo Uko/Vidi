@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeEvent: anEvent quality: anInteger timestamp: aDateAndTime 
 	event := anEvent.
 	quality := anInteger.

@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 addSession: aSession
 	^ sessions add: aSession

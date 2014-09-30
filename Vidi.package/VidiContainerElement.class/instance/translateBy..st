@@ -1,4 +1,4 @@
-accessing
+action
 translateBy: aVector
 	
 	super translateBy: aVector.

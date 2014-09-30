@@ -1,4 +1,4 @@
-as yet unclassified
+announcement handling
 reEntityRemoved: ann
 
 	ann affectedEntity = model ifTrue: [ 

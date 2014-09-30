@@ -11,11 +11,13 @@ initializeWidgets
 		addTab: (self newTab
 			closeable: false;
 			label: '  City'; "spaces because tab eats begining"
-			model: cityBrowser);
+			model: cityBrowser;
+			yourself);
 		addTab: (self newTab
 			closeable: false;
 			label: '  Pane'; "spaces because tab eats begining"
-			model: paneBrowser).
+			model: paneBrowser;
+			yourself).
 	
 	self initializeRuleList.
 	self initializeCityBrowser.

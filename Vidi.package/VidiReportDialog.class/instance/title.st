@@ -1,3 +1,3 @@
-accessing
+protocol
 title
 	^ 	'Report details'

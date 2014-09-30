@@ -1,4 +1,4 @@
-accessing
+action
 translateToX: newX y: newY z: newZ
 
 	| dist |

@@ -1,4 +1,4 @@
-as yet unclassified
+announcer handling
 ruleVisibilityChanged: ann 
 
 	self model ifNil: [ ^self ].

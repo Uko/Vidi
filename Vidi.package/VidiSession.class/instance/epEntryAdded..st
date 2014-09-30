@@ -1,4 +1,4 @@
-as yet unclassified
+announcement handling
 epEntryAdded: anEpEntryAdded 
 	
 	(self interestedIn: anEpEntryAdded entry)

@@ -13,13 +13,15 @@ initializeRuleList
 			TreeColumnModel new
 				headerLabel: 'Rule';
 				displayBlock: [ :node |
-					node content name ] .
+					node content name ];
+				yourself .
 			TreeColumnModel new
 				headerLabel: 'Critics';
 				initialWidth: 20;
 				resizable: false;
 				displayBlock: [ :node |
-					node content numberOfViolations ] }.
+					node content numberOfViolations ];
+				yourself }.
 		
 	RenrakuAnnouncer uniqueInstance weak
 		when: RePortChanged

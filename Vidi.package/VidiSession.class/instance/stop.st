@@ -1,8 +1,13 @@
-as yet unclassified
+actions
 stop
-	self active ifFalse: [ ^ self complain ].
+	self active ifFalse: [
+		self complain.
+		^ false ].
+	
 	(self confirm: 'Do you really want to stop session? (this action can''t be undone)')
-		ifTrue: [ 
-			endTime := DateAndTime now.
-			model := nil.
-			EpMonitor current log announcer unsubscribe: self ]
+		ifFalse: [ ^ false ].
+		
+	endTime := DateAndTime now.
+	model := nil.
+	EpMonitor current log announcer unsubscribe: self.
+	^ true

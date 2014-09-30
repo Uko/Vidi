@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializePackages: aCollection
 
 	self initialize.

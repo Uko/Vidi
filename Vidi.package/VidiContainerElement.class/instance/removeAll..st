@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 removeAll: aCollection
 	| oldBase |
 	oldBase := (R3AABox onElements: descendents) extent xz.

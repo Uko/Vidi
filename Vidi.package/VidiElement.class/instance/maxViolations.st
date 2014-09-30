@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 maxViolations
 
 	^ parent

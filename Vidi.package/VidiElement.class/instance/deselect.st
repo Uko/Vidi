@@ -1,4 +1,4 @@
-interactive error protocol
+actions
 deselect
 
 	^ self selected: false

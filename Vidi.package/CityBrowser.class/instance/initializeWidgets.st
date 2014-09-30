@@ -6,7 +6,8 @@ initializeWidgets
 		hoverOnElementBlock: [ :el |
 			infoBar text: el model infoText ];
 		stopHoverOnElementBlock: [
-			self resetInfobar ]).
+			self resetInfobar ];
+		yourself).
 		
 	
 	infoBar := self newLabel.

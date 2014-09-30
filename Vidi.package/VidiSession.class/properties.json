@@ -10,7 +10,8 @@
 		"endTime",
 		"packages",
 		"events",
-		"model" ],
+		"model",
+		"author" ],
 	"name" : "VidiSession",
 	"pools" : [
 		 ],

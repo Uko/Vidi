@@ -1,4 +1,4 @@
-as yet unclassified
+event registration
 subscribe
 
 	RenrakuAnnouncer uniqueInstance weak

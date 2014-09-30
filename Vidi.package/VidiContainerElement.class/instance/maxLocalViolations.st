@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 maxLocalViolations
 	
 	descendents ifEmpty: [ ^ 0 ].

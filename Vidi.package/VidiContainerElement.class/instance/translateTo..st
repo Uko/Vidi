@@ -1,4 +1,4 @@
-accessing
+action
 translateTo: aVector
 
 	| dist |

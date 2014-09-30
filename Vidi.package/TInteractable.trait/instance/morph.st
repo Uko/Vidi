@@ -1,4 +1,4 @@
-as yet unclassified
+private
 morph
 
 	self color: (self model isForeign

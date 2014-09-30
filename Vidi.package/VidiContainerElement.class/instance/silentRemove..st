@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 silentRemove: anElement
 	
 	self view ifNotNilDo: [ :v |

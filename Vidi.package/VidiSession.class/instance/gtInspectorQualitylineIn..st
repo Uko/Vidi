@@ -1,7 +1,8 @@
-as yet unclassified
+gt
 gtInspectorQualitylineIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 14>
+	self events ifEmpty: [ ^ self ].
 	
 	composite roassal2
 		title: 'Quality';
@@ -14,11 +15,13 @@ gtInspectorQualitylineIn: composite
 			b view: view.
 			b extent: 700 @ 300.
 			b interaction popup.
+			b shape ellipse 
+				color: (Color black alpha: 0.1);
+				size: [ :ev | ev changeValue / 2 ].
 			b points: self events.
-			b connectDotColor: Color red.
 			b allY: [ :ev | ev quality - lowestq + 1 ].
 			b allX: [ :ev | ev timeStamp asSeconds - earliest ].
-			"b stackX."
+			b connectDotColor: Color red.
 			b axisConfiguration 
 				labelRotation: -20;
 				 labelConvertion: [ :sec | 
@@ -30,8 +33,6 @@ gtInspectorQualitylineIn: composite
 				 labelConvertion: [ :qua | 
 					(qua - 1 + lowestq) asInteger ].
 			b axisY.
-			"b axisXWithNumberOfTicks: self events size."
-			"b axisYWithNumberOfTicks: 3."
 			
 			view canvas camera focusOnCenterScaled.
 			view @ RTHorizontalDraggableView. ]

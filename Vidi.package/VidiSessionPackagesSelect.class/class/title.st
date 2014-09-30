@@ -1,3 +1,3 @@
-as yet unclassified
+specs
 title
 	^ 'Select packages'

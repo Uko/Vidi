@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addAll: aCollection
 	| oldBase |
 	oldBase := (R3AABox onElements: descendents) extent xz.
