@@ -1,0 +1,4 @@
+*vidi
+changeValue
+
+	^ self subclassResponsibility 
