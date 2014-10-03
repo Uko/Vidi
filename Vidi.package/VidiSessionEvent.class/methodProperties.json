@@ -2,6 +2,7 @@
 	"class" : {
 		"event:quality:timestamp:" : "YuriyTymchuk 9/23/2014 10:57" },
 	"instance" : {
+		"changeTooltip" : "YuriyTymchuk 10/2/2014 18:11",
 		"changeValue" : "YuriyTymchuk 9/25/2014 14:27",
 		"event" : "YuriyTymchuk 9/23/2014 11:07",
 		"initializeEvent:quality:timestamp:" : "YuriyTymchuk 9/23/2014 10:58",

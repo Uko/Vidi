@@ -4,5 +4,5 @@ changeValue
 		inject: 0
 		into: [ :subtotal :assoc |
 			assoc key = #match
-				ifFalse: [ subtotal ]
-				ifTrue: [ subtotal + assoc value size ] ]
+				ifTrue:  [ subtotal ]
+				ifFalse: [ subtotal + assoc value size ] ]

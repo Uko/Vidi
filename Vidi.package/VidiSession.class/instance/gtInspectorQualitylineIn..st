@@ -14,10 +14,10 @@ gtInspectorQualitylineIn: composite
 			b := RTCharterBuilder new.
 			b view: view.
 			b extent: 700 @ 300.
-			b interaction popup.
+			b interaction popupText: #changeTooltip.
 			b shape ellipse 
 				color: (Color black alpha: 0.1);
-				size: [ :ev | ev changeValue / 2 ].
+				size: [ :ev | ev changeValue / 2 + 5 ].
 			b points: self events.
 			b allY: [ :ev | ev quality - lowestq + 1 ].
 			b allX: [ :ev | ev timeStamp asSeconds - earliest ].
