@@ -11,7 +11,9 @@
 		"entityInspector",
 		"model",
 		"mainView",
-		"paneBrowser" ],
+		"paneBrowser",
+		"selectAll",
+		"deselectAll" ],
 	"name" : "VidiBrowser",
 	"pools" : [
 		 ],
