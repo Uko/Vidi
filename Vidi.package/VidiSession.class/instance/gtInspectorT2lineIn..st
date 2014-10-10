@@ -16,11 +16,13 @@ gtInspectorT2lineIn: composite
 			b extent: 700 @ 300.
 			b interaction popupText: #changeTooltip.
 			b points: self events.
-			b shape color: (Color black alpha: 0.5).
 			b allY: [ :ev | ev changeValue ].
+			
+			b shape color: (Color black alpha: 0.5).
+			
 			b stackX.
 			"b allX: [ :ev | ev timeStamp asSeconds - earliest ]."
-			b histogramBarWidth: 2.
+			b histogramBarWidth: 700 / self events size - 1.
 			b axisConfiguration 
 				labelRotation: -20;
 				 labelConvertion: [ :sec | 

@@ -1,6 +1,6 @@
 *vidi
 changeMethodValue
-	^ (TextDiffBuilder from: self oldMethod to: self newMethod) buildPatchSequence
+	^ (PrettyTextDiffBuilder from: self oldMethod sourceCode to: self newMethod sourceCode) buildPatchSequence
 		inject: 0
 		into: [ :subtotal :assoc |
 			assoc key = #match

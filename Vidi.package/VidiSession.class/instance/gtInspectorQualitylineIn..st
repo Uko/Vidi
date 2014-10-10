@@ -20,6 +20,7 @@ gtInspectorQualitylineIn: composite
 				size: [ :ev | ev changeValue / 2 + 5 ].
 			b points: self events.
 			b allY: [ :ev | ev quality - lowestq + 1 ].
+			"b stackX"
 			b allX: [ :ev | ev timeStamp asSeconds - earliest ].
 			b connectDotColor: Color red.
 			b axisConfiguration 

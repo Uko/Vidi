@@ -1,3 +1,3 @@
 *vidi
 changeValue
-	^ protocol size
+	^ 5
