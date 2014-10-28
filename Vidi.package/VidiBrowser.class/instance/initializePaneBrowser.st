@@ -6,15 +6,13 @@ initializePaneBrowser
 			| pacEl classes |
 			pacEl := RTBox new
 				color: Color veryVeryLightGray;
-				elementOn: pac;
-				yourself.
+				elementOn: pac.
 			
 			classes := pac descendents collect: [ :cls |
 				| clsEl methods |
 				clsEl := RTBox new
 					color: Color lightGray;
-					elementOn: cls;
-					yourself.
+					elementOn: cls.
 			
 				methods := RTBox elementsOn: cls descendents.
 			
