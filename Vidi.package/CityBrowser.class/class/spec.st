@@ -3,6 +3,7 @@ spec
 	<spec: #default>
 	^ SpecLayout composed
 		newColumn: [ :col | col 
-			add: #roViz";
-			add: #infoBar height: 30" ];
+			add: #roViz;
+			add: #totalInfo height: 20;
+			add: #errorsInfo height: 20 ];
     	yourself

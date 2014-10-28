@@ -11,7 +11,9 @@
 		"colorBlock",
 		"packagesModel",
 		"infoTextBlock",
-		"mouseDownOnView" ],
+		"mouseDownOnView",
+		"totalInfo",
+		"errorsInfo" ],
 	"name" : "CityBrowser",
 	"pools" : [
 		 ],

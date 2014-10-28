@@ -1,5 +1,0 @@
-protocol
-resetInfobar
-
-	infoBar text: '• • • • • •'    
-   

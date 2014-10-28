@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"spec" : "Uko 9/11/2014 19:24:19" },
+		"spec" : "YuriyTymchuk 10/28/2014 12:49" },
 	"instance" : {
 		"elementSelectedBlock:" : "YuriyTymchuk 8/4/2014 18:33",
+		"errorsInfo" : "YuriyTymchuk 10/28/2014 12:36",
 		"infoBar" : "YuriyTymchuk 7/8/2014 14:45",
-		"initializeWidgets" : "YuriyTymchuk 9/24/2014 17:40",
+		"initializeWidgets" : "YuriyTymchuk 10/28/2014 13:55",
 		"packagesModel" : "YuriyTymchuk 7/8/2014 14:45",
-		"packagesModel:" : "YuriyTymchuk 7/8/2014 16:11",
-		"resetInfobar" : "YuriyTymchuk 7/8/2014 14:51",
+		"packagesModel:" : "YuriyTymchuk 10/28/2014 13:55",
+		"resetInfobars" : "YuriyTymchuk 10/28/2014 22:56",
 		"resetVisualization" : "YuriyTymchuk 8/19/2014 09:49",
 		"roViz" : "YuriyTymchuk 7/8/2014 14:45",
-		"selectionRemovedBlock:" : "YuriyTymchuk 8/4/2014 18:35" } }
+		"selectionRemovedBlock:" : "YuriyTymchuk 8/4/2014 18:35",
+		"totalInfo" : "YuriyTymchuk 10/28/2014 12:36" } }
