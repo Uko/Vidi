@@ -23,4 +23,9 @@ initializeWidgets
 	browseButton := self newButton.
 	browseButton
 		icon: (Smalltalk ui icons iconNamed: #sourceSelectedIcon);
-		action: [ entity ifNotNil: [ entity mirroredEntity browse ] ]
+		action: [ entity ifNotNil: [ entity mirroredEntity browse ] ].
+		
+	critics := self newLabel.
+	critics text: 'Violated rules:'.
+	sourceCode := self newLabel.
+	sourceCode text: 'Source code:'

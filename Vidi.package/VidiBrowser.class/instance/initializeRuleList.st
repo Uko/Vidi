@@ -12,6 +12,7 @@ initializeRuleList
 		columns: {
 			TreeColumnModel new
 				headerLabel: 'Rule';
+				initialWidth: 200;
 				displayBlock: [ :node |
 					node content name ];
 				yourself .
