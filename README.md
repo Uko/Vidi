@@ -23,3 +23,4 @@ More:
 V̲i̲sual d̲esign i̲nspector with a block flavour
 
 Colors: `#33aaff` `#ff8833`
+(this colors are wrong, in 3D everything changes because of lights and shadows)
