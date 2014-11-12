@@ -9,11 +9,11 @@ initializeMainWindow
 			closeable: false;
 			label: '  City'; "spaces because tab eats begining"
 			model: cityBrowser;
-			yourself);
+			yourself)";
 		addTab: (self newTab
 			closeable: false;
-			label: '  Pane'; "spaces because tab eats begining"
+			label: '  Pane'; ""spaces because tab eats begining""
 			model: paneBrowser;
-			yourself).
+			yourself".
 	
 	

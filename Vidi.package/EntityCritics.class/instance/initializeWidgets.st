@@ -22,7 +22,7 @@ initializeWidgets
 	
 	browseButton := self newButton.
 	browseButton
-		icon: (Smalltalk ui icons iconNamed: #sourceSelectedIcon);
+		icon: (Smalltalk ui icons iconNamed: #historyIcon);
 		action: [ entity ifNotNil: [ entity mirroredEntity browse ] ].
 		
 	critics := self newLabel.

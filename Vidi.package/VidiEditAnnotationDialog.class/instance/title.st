@@ -1,3 +1,3 @@
 protocol
 title
-	^ 	'Eddit annotation details'
+	^ 	'Edit annotation details'

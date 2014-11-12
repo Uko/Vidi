@@ -1,4 +1,4 @@
 as yet unclassified
 storageFile
 
-	^ FileSystem disk referenceTo: (FileLocator desktop / 'VidiReactor') fullPath
+	^ FileSystem disk referenceTo: (FileLocator home / 'Development' / 'smash' / 'VidiReactor') fullPath
