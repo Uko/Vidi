@@ -6,7 +6,6 @@ initializePackages: aCollection
 	
 	startTime := DateAndTime now.
 	events := OrderedCollection new. 
-	packages := Set new.
 	author := Author fullName.
 	
 	                 

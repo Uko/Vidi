@@ -1,5 +1,5 @@
 *vidi
 categorize: aMethod
-	<fix: 'Categorize automatically'>
+	<autoFix: 'Categorize automatically'>
 	
 	MethodClassifier classify: aMethod

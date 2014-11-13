@@ -22,7 +22,24 @@ initializeRuleList
 				resizable: false;
 				displayBlock: [ :node |
 					node content numberOfViolations ];
-				yourself }.
+				yourself };
+		menu: [ :menu | menu
+			addGroup: [:aGroup |
+				ruleList selectedItem ifNotNilDo: [ :litem |
+					litem content autoActions do: [ :pragma |
+						aGroup addItem: [ :item | item
+							name: (pragma argumentAt: 1);
+         					action: [
+								litem content violations
+									do: [ :viol |
+										litem content lintRule
+											withArgs: { viol entity mirroredEntity }
+											executeMethod: pragma method ]
+									displayingProgress: 'Chasing orcs...'
+						  ] ] ] ]. ] ].
+		
+				
+		
 		
 	RenrakuAnnouncer uniqueInstance weak
 		when: RePortChanged

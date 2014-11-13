@@ -1,6 +1,6 @@
 *vidi
 performTransformaiton: aMethod
-	<fix: 'Perform transformaiton'>
+	<autoFix: 'Perform transformaiton'>
 	
 	self checkMethod: aMethod.
 	self transform: aMethod
