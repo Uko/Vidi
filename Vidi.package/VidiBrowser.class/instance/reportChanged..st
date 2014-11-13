@@ -2,4 +2,6 @@ accessing
 reportChanged: ann
 
 	(model rules includes: ann affectedReport rule)
-		ifTrue: [ ruleList updateTree ]
+		ifTrue: [
+			ruleList updateTree.
+			cityBrowser resetInfobars ]

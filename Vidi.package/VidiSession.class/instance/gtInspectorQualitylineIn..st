@@ -17,7 +17,7 @@ gtInspectorQualitylineIn: composite
 			b interaction popupText: #changeTooltip.
 			b shape ellipse 
 				color: (Color black alpha: 0.1);
-				size: [ :ev | ev changeValue / 2 + 5 ].
+				size: [ :ev | ev changeValue sqrt + 5 ].
 			b points: self events.
 			b allY: [ :ev | ev quality - lowestq + 1 ].
 			"b stackX"

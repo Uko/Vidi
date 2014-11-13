@@ -14,7 +14,9 @@ initializeRuleList
 				headerLabel: 'Rule';
 				initialWidth: 200;
 				displayBlock: [ :node |
-					node content name ];
+					node content autoActions
+						ifEmpty: [ node content name ]
+						ifNotEmpty: [ "'* '," node content name ] ];
 				yourself .
 			TreeColumnModel new
 				headerLabel: 'Critics';

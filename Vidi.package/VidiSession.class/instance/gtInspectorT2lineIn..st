@@ -16,7 +16,7 @@ gtInspectorT2lineIn: composite
 			b extent: 700 @ 300.
 			b interaction popupText: #changeTooltip.
 			b points: self events.
-			b allY: [ :ev | ev changeValue ].
+			b allY: [ :ev | ev changeValue sqrt ].
 			
 			b shape color: (Color black alpha: 0.5).
 			

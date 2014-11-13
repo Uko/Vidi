@@ -1,0 +1,3 @@
+*vidi
+autoActions
+	^ #()
