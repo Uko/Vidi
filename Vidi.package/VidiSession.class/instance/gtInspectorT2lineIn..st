@@ -16,7 +16,7 @@ gtInspectorT2lineIn: composite
 			b extent: 700 @ 300.
 			b interaction popupText: #changeTooltip.
 			b points: self events.
-			b allY: [ :ev | ev changeValue sqrt ].
+			b allY: [ :ev | ev changeValue "sqrt" ].
 			
 			b shape color: (Color black alpha: 0.5).
 			
@@ -25,9 +25,14 @@ gtInspectorT2lineIn: composite
 			b histogramBarWidth: 700 / self events size - 1.
 			b axisConfiguration 
 				labelRotation: -20;
-				 labelConvertion: [ :sec | 
+				labelConvertion: [ :index | 
 					String streamContents: [ :s |
-						self events first timeStamp + sec asSeconds printHMSOn: s ] ].
+						s nextPut: $(.
+						index floor printOn: s.
+						s nextPut: $); space.
+						(self events at: (index isZero
+							ifTrue: [ 1 ]
+							ifFalse: [ index ]) ) timeStamp printHMOn: s ] ].
 			b axisX.
 			b resetAxisConfiguration.
 			b axisY.

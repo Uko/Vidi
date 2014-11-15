@@ -27,7 +27,7 @@ gtInspectorQualitylineIn: composite
 				labelRotation: -20;
 				 labelConvertion: [ :sec | 
 					String streamContents: [ :s |
-						self events first timeStamp + sec asSeconds printHMSOn: s ] ].
+						self events first timeStamp + sec asSeconds printHMOn: s ] ].
 			b  axisX.
 			b resetAxisConfiguration.
 			b axisConfiguration 
