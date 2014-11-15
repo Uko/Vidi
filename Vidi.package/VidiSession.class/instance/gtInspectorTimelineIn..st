@@ -2,34 +2,40 @@ gt
 gtInspectorTimelineIn: composite
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 15>
-	| popup |
-	popup := RTPopup text: [ :ev |
-		ev event name, ' [',
-		(ev event class name allButFirst: 2), ']' ].
+	|  |
+	self events ifEmpty: [ ^ self ].
+	
 	composite roassal2
-		title: 'Timeline';
+		title: 'T2';
 		painting: [ :view | 
-			| earliest |
-			earliest := ((self events detectMin: #timeStamp) timeStamp) asSeconds.
+			|  earliest b |
+			earliest := self events first timeStamp asSeconds.
 			
+			b := RTCharterBuilder new.
+			b view: view.
+			b extent: 700 @ 300.
+			b interaction popupText: #changeTooltip.
+			b points: self events.
+			b allY: [ :ev | ev changeValue "sqrt" ].
 			
-			view addAll: ((RTEllipse elementsOn: self events)
-				@ popup;
-				@ RTHighlightable;
-				yourself).
-			RTGlobalBuilder new
-				view: view;
-				
-				normalizeX: [ :ev | ev timeStamp asSeconds - earliest ]
-				min: 0
-				max: 500;
-				
-				minSize: 15;
-				alphaColor: 0.7;
-				execute.
-				
-			view add: ((RTLine new color: Color lightGray)
-				edgeFrom: view elements leftMostElement
-				to: view elements rightMostElement).
-			view @ RTHorizontalDraggableView.
-			view canvas focusOnCenterScaled ]
+			b shape color: (Color black alpha: 0.5).
+			
+			b stackX.
+			"b allX: [ :ev | ev timeStamp asSeconds - earliest ]."
+			b histogramBarWidth: 700 / self events size - 1.
+			b axisConfiguration 
+				labelRotation: -20;
+				labelConvertion: [ :index | 
+					String streamContents: [ :s |
+						s nextPut: $(.
+						index floor printOn: s.
+						s nextPut: $); space.
+						(self events at: (index isZero
+							ifTrue: [ 1 ]
+							ifFalse: [ index ]) ) timeStamp printHMOn: s ] ].
+			b axisX.
+			b resetAxisConfiguration.
+			b axisY.
+			
+			view canvas camera focusOnCenterScaled.
+			view @ RTHorizontalDraggableView. ]
