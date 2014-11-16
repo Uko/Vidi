@@ -5,4 +5,5 @@ gtInspectorActionStopSession
 		action: [ self stop ];
 		icon: (Smalltalk ui icons iconNamed: #stopIcon);
 		condition: [ self active ];
-		title: 'Stop session'
+		title: 'Stop session';
+		yourself

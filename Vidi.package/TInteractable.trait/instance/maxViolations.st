@@ -1,0 +1,4 @@
+properties
+maxViolations
+
+	^ self explicitRequirement

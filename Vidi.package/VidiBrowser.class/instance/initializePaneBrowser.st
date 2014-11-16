@@ -4,14 +4,16 @@ initializePaneBrowser
 	paneBrowser script: [ :view |
 		(RTRectanglePackLayout new padding: 2) on: (model packages collect: [ :pac |
 			| pacEl classes |
-			pacEl := RTBox new
+			pacEl := (RTBox new
 				color: Color veryVeryLightGray;
+				yourself)
 				elementOn: pac.
 			
 			classes := pac descendents collect: [ :cls |
 				| clsEl methods |
-				clsEl := RTBox new
+				clsEl := (RTBox new
 					color: Color lightGray;
+					yourself)
 					elementOn: cls.
 			
 				methods := RTBox elementsOn: cls descendents.

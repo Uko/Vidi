@@ -8,8 +8,8 @@ gtInspectorTimelineIn: composite
 	composite roassal2
 		title: 'T2';
 		painting: [ :view | 
-			|  earliest b |
-			earliest := self events first timeStamp asSeconds.
+			|  b |
+			
 			
 			b := RTCharterBuilder new.
 			b view: view.
@@ -21,7 +21,7 @@ gtInspectorTimelineIn: composite
 			b shape color: (Color black alpha: 0.5).
 			
 			b stackX.
-			"b allX: [ :ev | ev timeStamp asSeconds - earliest ]."
+			
 			b histogramBarWidth: 700 / self events size - 1.
 			b axisConfiguration 
 				labelRotation: -20;

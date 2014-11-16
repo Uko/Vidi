@@ -8,10 +8,7 @@
 	"instvars" : [
 		"infoBar",
 		"roViz",
-		"colorBlock",
 		"packagesModel",
-		"infoTextBlock",
-		"mouseDownOnView",
 		"totalInfo",
 		"errorsInfo" ],
 	"name" : "CityBrowser",

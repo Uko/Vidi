@@ -18,8 +18,6 @@ initializeWidgets
     	wantDropBlock: [ :draggedItem :event :source | 
 			draggedItem isTransferable and: [ draggedItem source model model = methods ] ];
     	acceptDropBlock: [ :transfer :event :source :receiver :index |
-     		| sourceList |
-     		sourceList := transfer source model model.
     		transfer passenger do: [ :method |
 				class>>method protocol: (protocols listElementAt: index) ].
      		protocols setIndex: index ]. 

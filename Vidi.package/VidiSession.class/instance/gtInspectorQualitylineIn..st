@@ -20,7 +20,6 @@ gtInspectorQualitylineIn: composite
 				size: [ :ev | ev changeValue sqrt + 5 ].
 			b points: self events.
 			b allY: [ :ev | ev quality - lowestq + 1 ].
-			"b stackX"
 			b allX: [ :ev | ev timeStamp asSeconds - earliest ].
 			b connectDotColor: Color red.
 			b axisConfiguration 
@@ -28,7 +27,7 @@ gtInspectorQualitylineIn: composite
 				 labelConvertion: [ :sec | 
 					String streamContents: [ :s |
 						self events first timeStamp + sec asSeconds printHMOn: s ] ].
-			b  axisX.
+			b axisX.
 			b resetAxisConfiguration.
 			b axisConfiguration 
 				 labelConvertion: [ :qua | 

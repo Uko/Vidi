@@ -5,4 +5,5 @@ gtInspectorActionOpenVidi
 		action: [ self openVidi ];
 		icon: VidiMenuExtensions vidiIcon;
 		condition: [ self active ];
-		title: 'Open Vidi'
+		title: 'Open Vidi';
+		yourself
