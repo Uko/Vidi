@@ -10,7 +10,7 @@ Or execute in your image:
       project: 'Configuration';
       configurationOf: 'Vidi';
       load.
-    #ConfigurationOfVidi asClass loadDevelopment
+    #ConfigurationOfVidi asClass loadStable
 
 How to use:
 -----------
