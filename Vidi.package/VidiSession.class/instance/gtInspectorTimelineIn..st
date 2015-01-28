@@ -6,24 +6,28 @@ gtInspectorTimelineIn: composite
 	self events ifEmpty: [ ^ self ].
 	
 	composite roassal2
-		title: 'T2';
+		title: 'Timeline';
 		painting: [ :view | 
-			|  b |
+			| b ds |
 			
 			
-			b := RTCharterBuilder new.
+			b := RTGrapher new.
 			b view: view.
 			b extent: 700 @ 300.
-			b interaction popupText: #changeTooltip.
-			b points: self events.
-			b allY: [ :ev | ev changeValue "sqrt" ].
+			ds := RTStackedDataSet new.
+			ds interaction popupText: #changeTooltip.
+			ds points: self events.
+			ds y: [ :ev | ev changeValue "sqrt" ].
 			
-			b shape color: (Color black alpha: 0.5).
+			ds barShape rectangle
+				color: (Color black alpha: 0.5)";
+				width: 700 / self events size - 1".
+
 			
-			b stackX.
 			
-			b histogramBarWidth: 700 / self events size - 1.
-			b axisConfiguration 
+			b add: ds.
+			
+			b axisX 
 				labelRotation: -20;
 				labelConvertion: [ :index | 
 					String streamContents: [ :s |
@@ -33,9 +37,10 @@ gtInspectorTimelineIn: composite
 						(self events at: (index isZero
 							ifTrue: [ 1 ]
 							ifFalse: [ index ]) ) timeStamp printHMOn: s ] ].
-			b axisX.
-			b resetAxisConfiguration.
+
 			b axisY.
+			
+			b build.
 			
 			view canvas camera focusOnCenterScaled.
 			view @ RTHorizontalDraggableView. ]
