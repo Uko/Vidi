@@ -24,7 +24,7 @@ gtInspectorQualitylineIn: composite
 			ds dotShape ellipse 
 				color: (Color black alpha: 0.1);
 				size: [ :ev | ev changeValue sqrt + 5 ].
-			ds points: self events inspect.
+			ds points: self events.
 			ds y: [ :ev | ev quality - lowestq + 1 ].
 			ds x: [ :ev | ev timeStamp asSeconds - earliest ].
 			ds connectColor: Color red.
