@@ -8,6 +8,12 @@ baseline: spec
 			package: 'Vidi' with: [ spec requires: #('Renraku' 'Roassal2') ].
 		
 		spec
+  			package: 'Glamour-Roassal2-Presentations' with: [
+    			spec
+					repository: 'http://smalltalkhub.com/mc/Moose/Glamour/main';
+					requires: 'Roassal2' ].
+		
+		spec
       		baseline: 'Renraku' with: [ 
         		spec
             		className: 'BaselineOfRenraku';
