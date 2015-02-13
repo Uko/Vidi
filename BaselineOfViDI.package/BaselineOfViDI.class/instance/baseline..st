@@ -5,7 +5,7 @@ baseline: spec
 	spec for: #common do: [
 		spec blessing: #baseline.
 		spec
-			package: 'ViDI' with: [ spec requires: #('Renraku' 'Roassal2') ].
+			package: 'Vidi' with: [ spec requires: #('Renraku' 'Roassal2') ].
 		
 		spec
       		baseline: 'Renraku' with: [ 

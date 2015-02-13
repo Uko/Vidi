@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfViDI!
+SystemOrganization addCategory: #BaselineOfVidi!
