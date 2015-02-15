@@ -1,4 +1,0 @@
-accessing
-selected: aBoolean
-
-	^ false

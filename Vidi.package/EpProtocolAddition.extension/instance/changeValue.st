@@ -1,3 +1,0 @@
-*vidi
-changeValue
-	^ 5

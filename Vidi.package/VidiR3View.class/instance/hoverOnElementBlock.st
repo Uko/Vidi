@@ -1,3 +1,0 @@
-accessing
-hoverOnElementBlock
-	^ hoverOnElementBlock

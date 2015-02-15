@@ -1,4 +1,0 @@
-properties
-maxLocalViolations
-
-	^ self subclassResponsibility

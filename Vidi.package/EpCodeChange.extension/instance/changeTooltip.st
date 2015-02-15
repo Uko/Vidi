@@ -1,4 +1,0 @@
-*vidi
-changeTooltip
-
-	^ self subclassResponsibility 

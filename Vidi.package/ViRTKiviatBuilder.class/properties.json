@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-Roassal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nameDict" ],
+	"name" : "ViRTKiviatBuilder",
+	"pools" : [
+		 ],
+	"super" : "RTKiviatBuilder",
+	"type" : "normal" }
