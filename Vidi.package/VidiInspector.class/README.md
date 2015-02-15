@@ -1,0 +1,1 @@
+I am special GTInspector to be used in terms of ViDI infrastructure
