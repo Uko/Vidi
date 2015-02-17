@@ -18,4 +18,5 @@ gtInspectorViMethodsIn: composite
 			view addAll: elements.
 			elements @ (RTPopup new text: #selector).
 			RTRectanglePackLayout new
-				padding: 0.5; on: elements ]
+				padding: 0.5; on: elements.
+			view canvas focusOnCenterScaled ]

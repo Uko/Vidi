@@ -23,4 +23,5 @@ gtInspectorViMethodsListIn: composite
 						addLabelToBars: [ :assoc | assoc key round: 2 ]
 						if: [ :assoc | assoc key >= 0.35 ].
 						
-					view view @ RTZoomableView  ]
+					view view @ RTZoomableView.
+					view view canvas focusOnCenterScaled  ]
