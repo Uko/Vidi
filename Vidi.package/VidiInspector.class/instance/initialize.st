@@ -3,4 +3,4 @@ initialize
 	super initialize.
 	
 	self presentationFilter: (GTInspectorTagFilter new
-			addAndSelectTag: #vidi)
+			addAndSelectTag: #vidi2)

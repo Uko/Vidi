@@ -1,0 +1,14 @@
+{
+	"category" : "Vidi-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VidiInspector2",
+	"pools" : [
+		 ],
+	"super" : "GTInspector",
+	"type" : "normal" }
