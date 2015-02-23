@@ -1,0 +1,3 @@
+*vidi
+color
+	^ Color green

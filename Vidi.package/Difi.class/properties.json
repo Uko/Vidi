@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 2/15/2015 23:42",
+	"commentStamp" : "YuriyTymchuk 2/23/2015 14:37",
 	"instvars" : [
 		 ],
-	"name" : "VidiInspector",
+	"name" : "Difi",
 	"pools" : [
 		 ],
-	"super" : "GTInspector",
+	"super" : "GLMCompositePresentation",
 	"type" : "normal" }

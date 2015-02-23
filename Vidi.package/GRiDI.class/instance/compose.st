@@ -13,3 +13,5 @@ compose
 							gridiPresentationsIn: d 
 							inContext: self ])
 							startOn: x ] ] ].
+				
+	self first when: GLMPaneAdded send: #actOnPaneAdded: to: self

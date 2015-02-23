@@ -1,0 +1,4 @@
+*vidi
+color
+
+	^ Color black
