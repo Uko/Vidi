@@ -3,16 +3,16 @@ resetInfobars
 
 	packagesModel
 		ifNil: [ 
-			totalInfo text: ''.
-			errorsInfo text: ''.
+			totalInfo label: ''.
+			errorsInfo label: ''.
 			^ self ]
 	 	ifNotNil: [ 
-			totalInfo text:
+			totalInfo label:
 				'Total classes: ',
 				packagesModel numberOfClasses asString,
 				' methods: ',
 				packagesModel numberOfMethods asString.
-			errorsInfo text:
+			errorsInfo label:
 			'Violated classes: ',
 			packagesModel numberOfViolatedClasses asString,
 			' methods: ',
