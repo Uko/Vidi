@@ -16,6 +16,6 @@ initializeWidgets
 		action: [ entity ifNotNil: [ entity mirroredEntity browse ] ].
 		
 	critics := self newLabel.
-	critics text: 'Violated rules:'.
+	critics label: 'Violated rules:'.
 	sourceCode := self newLabel.
-	sourceCode text: 'Source code:'
+	sourceCode label: 'Source code:'
