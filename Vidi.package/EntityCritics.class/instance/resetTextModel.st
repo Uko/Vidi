@@ -9,6 +9,6 @@ resetTextModel
 			| mirroredEntity |
 			mirroredEntity := entity mirroredEntity.
 			codePane text: mirroredEntity definition.
-			codePane behavior: (mirroredEntity isClass | mirroredEntity isTrait 
-				ifTrue: [ mirroredEntity ]
+			codePane behavior: (mirroredEntity isClassOrTrait 
+				ifTrue: [ nil ]
 				ifFalse: [ mirroredEntity methodClass ]) ]

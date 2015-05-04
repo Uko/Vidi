@@ -1,5 +1,5 @@
 announcement handling
-epEntryAdded: anEpEntryAdded 
+epEntryAdded: anEpEntryAdded
 	
 	(self interestedIn: anEpEntryAdded entry)
 		ifFalse: [ ^ self ].

@@ -8,7 +8,7 @@ initializePackages: aCollection
 	events := OrderedCollection new. 
 	author := Author fullName.
 	
-	                 
+	EpMonitor current enable.     
 	EpMonitor current log announcer weak
 		when: EpEntryAdded
 		send: #epEntryAdded:
