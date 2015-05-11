@@ -2,7 +2,10 @@
 	"class" : {
 		"spec" : "YuriyTymchuk 10/5/2014 18:45" },
 	"instance" : {
-		"class:" : "YuriyTymchuk 10/6/2014 00:33",
-		"initializeWidgets" : "YuriyTymchuk 11/16/2014 11:57",
+		"addProtocol" : "YuriyTymchuk 5/11/2015 10:49",
+		"categorizeAllUncategorized" : "YuriyTymchuk 5/11/2015 10:32",
+		"class:" : "YuriyTymchuk 5/11/2015 10:31",
+		"initializeWidgets" : "YuriyTymchuk 5/11/2015 10:46",
 		"methods" : "YuriyTymchuk 10/5/2014 18:29",
-		"protocols" : "YuriyTymchuk 10/5/2014 18:29" } }
+		"protocols" : "YuriyTymchuk 10/5/2014 18:29",
+		"updateProtocols" : "YuriyTymchuk 5/11/2015 10:31" } }

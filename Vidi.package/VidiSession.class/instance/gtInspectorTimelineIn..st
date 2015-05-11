@@ -29,14 +29,14 @@ gtInspectorTimelineIn: composite
 			
 			b axisX 
 				labelRotation: -20;
-				labelConvertion: [ :index | 
+				labelConversion: [ :index | 
 					String streamContents: [ :s |
 						s nextPut: $(.
 						index floor printOn: s.
 						s nextPut: $); space.
-						(self events at: (index isZero
+						(self events at: ((index isZero
 							ifTrue: [ 1 ]
-							ifFalse: [ index ]) ) timeStamp printHMOn: s ] ].
+							ifFalse: [ index ]) min: self events size) ) timeStamp printHMOn: s ] ].
 
 			b axisY.
 			

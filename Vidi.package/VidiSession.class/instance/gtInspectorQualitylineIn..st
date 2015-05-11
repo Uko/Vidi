@@ -33,13 +33,13 @@ gtInspectorQualitylineIn: composite
 			
 			b axisX 
 				labelRotation: -20;
-				 labelConvertion: [ :sec | 
+				 labelConversion: [ :sec | 
 					String streamContents: [ :s |
 						self events first timeStamp + sec asSeconds printHMOn: s ] ].
 
 			
 			b axisY 
-				 labelConvertion: [ :qua | 
+				 labelConversion: [ :qua | 
 					(qua - 1 + lowestq) asInteger ].
 			
 			b build.

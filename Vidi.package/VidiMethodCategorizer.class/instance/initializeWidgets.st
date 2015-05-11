@@ -7,12 +7,16 @@ initializeWidgets
    		methods items: (class selectorsInProtocol: item).
 		methods resetSelection ].
 	protocols menu: [ :menu |
+		menu
+				target: self;
+				add: 'Add protocol...'
+				selector: #addProtocol.
 		class uncategorizedSelectors ifNotEmpty: [
 			menu
 				target: self;
 				add: 'Categorize all uncategorized'
-				action: #categorizeAllUncategorized ].
-		menu ].
+				selector: #categorizeAllUncategorized ].
+		menu  ].
 	protocols
 		dropEnabled: true;
     	wantDropBlock: [ :draggedItem :event :source | 
