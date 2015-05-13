@@ -1,5 +1,6 @@
 gt
 gtInspectorQualitylineIn: composite
+	| elements |
 	"This provides a list of all events"
 	<gtInspectorPresentationOrder: 14>
 	self events ifEmpty: [ ^ self ].
@@ -43,6 +44,22 @@ gtInspectorQualitylineIn: composite
 					(qua - 1 + lowestq) asInteger ].
 			
 			b build.
+			
+			elements := view elements select: [ :el | el shape class == RTEllipse ].
+			
+			view addMenu: 'Enlarge points' callback: [
+				elements do: [ :el |
+					view addAnimation: (RTResizeMove new
+						toExtent: el extent * 1.25
+						during: 0.4
+						on: el) ] ].
+				
+			view addMenu: 'Reduce points' callback: [ 
+				elements do: [ :el |
+					view addAnimation: (RTResizeMove new
+						toExtent: el extent * 0.8
+						during: 0.4
+						on: el) ] ].
 			
 			view canvas camera focusOnCenterScaled.
 			view @ RTHorizontalDraggableView. ] 

@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "VidiElement",
-	"traitcomposition" : "TInteractable",
+	"traitcomposition" : "TInteractable - {#model}",
 	"type" : "normal" }
