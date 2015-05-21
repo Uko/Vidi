@@ -3,8 +3,8 @@ resetInfobars
 
 	packagesModel
 		ifNil: [ 
-			totalInfo label: ''.
-			errorsInfo label: ''.
+			totalInfo text: ''.
+			errorsInfo text: ''.
 			^ self ]
 	 	ifNotNil: [ 
 			totalInfo label:
