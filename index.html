@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <title>ViDI: Visual Design Inspector</title>
+  </head>
+  <body data-spy="scroll" data-target="#menu">
+    <div class="container">
+      <h1 class="text-center">ViDI: Visual Design Inspector </br> <small>Code review with code quality in mind</small></h1>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+          <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li role="presentation" class="active"><a href="#promo" aria-controls="promo" role="tab" data-toggle="tab">Promo Video</a></li>
+            <li role="presentation"><a href="#demo" aria-controls="demo" role="tab" data-toggle="tab">Demo Video</a></li>
+          </ul>
+
+          <div class="tab-content embed-responsive embed-responsive-16by9">
+            <iframe role="tabpanel" id="promo" class="tab-pane fade in active embed-responsive-item" src="//www.youtube.com/embed/EtdkcNBJAec" frameborder="0" allowfullscreen></iframe>
+            <iframe role="tabpanel" id="demo" class="tab-pane fade embed-responsive-item" src="//www.youtube.com/embed/UoyI4wG5xRA" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="city">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Critical System Visualization</h2>
+          <p class="lead">ViDI provides 3D visualization of the reviewed system overlayed with critic repors provided by statical code analysis tools.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/city.png" alt="City visualization">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="editor">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Issue Resolution Support</h2>
+          <p class="lead">Source code can be edited for within ViDI. Some critics can be automatically fixed. Some critics are assocciated with dedicated UIs that improve the resolution.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive" src="images/editor.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="timeline">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Overview of a Review</h2>
+          <p class="lead">Each review session is recorded and can be overviewed later. Two views show nunber of critics in time and impact of the changes made to code.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/timeline.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2014
+          <a target="_blanc" href="http://reveal.inf.usi.ch">REVEAL</a>
+          @ Faculty of Informatics - University of Lugano, Switzerland
+      </footer>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" id="menu">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="ViDI" src="images/vidi.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#city">Visualization</a></li>
+        <li><a href="#editor">Resolution</a></li>
+        <li><a href="#timeline">Lookback</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a target="_blank" href="http://yuriy.tymchuk.me"><i class="fa fa-user-secret fa-lg"></i> Author</a></li>
+        <li><a target="_blank" href="https://github.com/Uko/Vidi"><i class="fa fa-github fa-lg"></i> Repository</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
